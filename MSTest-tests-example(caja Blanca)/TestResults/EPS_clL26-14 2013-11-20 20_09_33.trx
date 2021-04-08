@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8a689a81-6dcd-4fd5-9f55-e8c9e38d6a01" name="EPS@clL26-14 2013-11-20 20:09:33" runUser="clL26-14\EPS" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="fb404254-0041-48ca-b1c8-648cce7727a1">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="EPS_clL26-14 2013-11-20 20_09_33">
+      <DeploymentItem filename="E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example(caja Blanca)\MSTest-tests-example\bin\Debug\MSTest-tests-example.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-20T20:09:33.3675710+01:00" queuing="2013-11-20T20:09:33.7581960+01:00" start="2013-11-20T20:09:33.8206960+01:00" finish="2013-11-20T20:09:34.2269460+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example(caja blanca)\proyectoprueba\bin\debug\proyectoprueba.dll" id="4a5f2fbf-d246-042a-1e74-54ef682ff4e8">
+      <Execution id="ffa476b8-b2d3-4c3e-a8ee-34c478d8eb0d" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example(caja Blanca)/ProyectoPrueba/bin/Debug/ProyectoPrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoPrueba.TestLogonInfo, ProyectoPrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod9" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example(caja blanca)\proyectoprueba\bin\debug\proyectoprueba.dll" id="851b9039-4995-1443-89b5-1b0a4e119c8d">
+      <Execution id="9ef67272-b55f-44ee-89db-72c6a270ea5f" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example(caja Blanca)/ProyectoPrueba/bin/Debug/ProyectoPrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoPrueba.TestCustomReplace, ProyectoPrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod9" />
+    </UnitTest>
+    <UnitTest name="TestMethod4" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example(caja blanca)\proyectoprueba\bin\debug\proyectoprueba.dll" id="be1d04c4-9300-e5a0-f43c-9f3c2353b0cc">
+      <Execution id="c022715c-8971-4599-9646-a52392c16e30" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example(caja Blanca)/ProyectoPrueba/bin/Debug/ProyectoPrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoPrueba.TestCustomReplace, ProyectoPrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod4" />
+    </UnitTest>
+    <UnitTest name="TestMethod5" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example(caja blanca)\proyectoprueba\bin\debug\proyectoprueba.dll" id="c8baa2a6-7a39-9b09-3016-51015a35d8f0">
+      <Execution id="2c564070-633a-49c5-b048-ddbde07142b9" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example(caja Blanca)/ProyectoPrueba/bin/Debug/ProyectoPrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoPrueba.TestCustomReplace, ProyectoPrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod5" />
+    </UnitTest>
+    <UnitTest name="TestMethod8" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example(caja blanca)\proyectoprueba\bin\debug\proyectoprueba.dll" id="a7f529d6-d45a-05e5-8dc8-59a57eed524c">
+      <Execution id="0c606d6c-ce9d-4032-b0f5-9c85c7285fe4" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example(caja Blanca)/ProyectoPrueba/bin/Debug/ProyectoPrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoPrueba.TestCustomReplace, ProyectoPrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod8" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example(caja blanca)\proyectoprueba\bin\debug\proyectoprueba.dll" id="870b17f6-fb72-ed2e-1f3c-36d89f3e1a9e">
+      <Execution id="80643445-230d-45ba-b9fb-430c73aa737e" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example(caja Blanca)/ProyectoPrueba/bin/Debug/ProyectoPrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoPrueba.TestImageManagement, ProyectoPrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example(caja blanca)\proyectoprueba\bin\debug\proyectoprueba.dll" id="633b82e2-7756-b199-9865-8ebdc9d2834c">
+      <Execution id="ec35d2db-15e7-413c-a76c-d5a886eae089" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example(caja Blanca)/ProyectoPrueba/bin/Debug/ProyectoPrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoPrueba.TestCustomReplace, ProyectoPrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod3" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example(caja blanca)\proyectoprueba\bin\debug\proyectoprueba.dll" id="80d80935-a61a-fc74-b43e-b2b7bcfaf616">
+      <Execution id="12e1b8c5-20b7-4f31-9146-b02509b4ac18" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example(caja Blanca)/ProyectoPrueba/bin/Debug/ProyectoPrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoPrueba.TestCustomReplace, ProyectoPrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="TestMethod6" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example(caja blanca)\proyectoprueba\bin\debug\proyectoprueba.dll" id="e2ef99e4-7e73-5e8d-9bc7-86702cb82740">
+      <Execution id="eabb5882-960f-4bec-ae0b-36080d78bebf" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example(caja Blanca)/ProyectoPrueba/bin/Debug/ProyectoPrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoPrueba.TestCustomReplace, ProyectoPrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod6" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4a5f2fbf-d246-042a-1e74-54ef682ff4e8" executionId="ffa476b8-b2d3-4c3e-a8ee-34c478d8eb0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="633b82e2-7756-b199-9865-8ebdc9d2834c" executionId="ec35d2db-15e7-413c-a76c-d5a886eae089" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80d80935-a61a-fc74-b43e-b2b7bcfaf616" executionId="12e1b8c5-20b7-4f31-9146-b02509b4ac18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="851b9039-4995-1443-89b5-1b0a4e119c8d" executionId="9ef67272-b55f-44ee-89db-72c6a270ea5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="870b17f6-fb72-ed2e-1f3c-36d89f3e1a9e" executionId="80643445-230d-45ba-b9fb-430c73aa737e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7f529d6-d45a-05e5-8dc8-59a57eed524c" executionId="0c606d6c-ce9d-4032-b0f5-9c85c7285fe4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be1d04c4-9300-e5a0-f43c-9f3c2353b0cc" executionId="c022715c-8971-4599-9646-a52392c16e30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8baa2a6-7a39-9b09-3016-51015a35d8f0" executionId="2c564070-633a-49c5-b048-ddbde07142b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2ef99e4-7e73-5e8d-9bc7-86702cb82740" executionId="eabb5882-960f-4bec-ae0b-36080d78bebf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ffa476b8-b2d3-4c3e-a8ee-34c478d8eb0d" testId="4a5f2fbf-d246-042a-1e74-54ef682ff4e8" testName="TestMethod1" computerName="clL26-14" duration="00:00:00.0104753" startTime="2013-11-20T20:09:33.8519460+01:00" endTime="2013-11-20T20:09:34.1331960+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ffa476b8-b2d3-4c3e-a8ee-34c478d8eb0d">
+    </UnitTestResult>
+    <UnitTestResult executionId="ec35d2db-15e7-413c-a76c-d5a886eae089" testId="633b82e2-7756-b199-9865-8ebdc9d2834c" testName="TestMethod1" computerName="clL26-14" duration="00:00:00.0282015" startTime="2013-11-20T20:09:34.1331960+01:00" endTime="2013-11-20T20:09:34.1644460+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec35d2db-15e7-413c-a76c-d5a886eae089">
+    </UnitTestResult>
+    <UnitTestResult executionId="12e1b8c5-20b7-4f31-9146-b02509b4ac18" testId="80d80935-a61a-fc74-b43e-b2b7bcfaf616" testName="TestMethod3" computerName="clL26-14" duration="00:00:00.0003083" startTime="2013-11-20T20:09:34.1644460+01:00" endTime="2013-11-20T20:09:34.1644460+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12e1b8c5-20b7-4f31-9146-b02509b4ac18">
+    </UnitTestResult>
+    <UnitTestResult executionId="9ef67272-b55f-44ee-89db-72c6a270ea5f" testId="851b9039-4995-1443-89b5-1b0a4e119c8d" testName="TestMethod9" computerName="clL26-14" duration="00:00:00.0003108" startTime="2013-11-20T20:09:34.1800710+01:00" endTime="2013-11-20T20:09:34.1800710+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ef67272-b55f-44ee-89db-72c6a270ea5f">
+    </UnitTestResult>
+    <UnitTestResult executionId="80643445-230d-45ba-b9fb-430c73aa737e" testId="870b17f6-fb72-ed2e-1f3c-36d89f3e1a9e" testName="TestMethod1" computerName="clL26-14" duration="00:00:00.0001387" startTime="2013-11-20T20:09:34.1800710+01:00" endTime="2013-11-20T20:09:34.1800710+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80643445-230d-45ba-b9fb-430c73aa737e">
+    </UnitTestResult>
+    <UnitTestResult executionId="0c606d6c-ce9d-4032-b0f5-9c85c7285fe4" testId="a7f529d6-d45a-05e5-8dc8-59a57eed524c" testName="TestMethod8" computerName="clL26-14" duration="00:00:00.0002712" startTime="2013-11-20T20:09:34.1800710+01:00" endTime="2013-11-20T20:09:34.1800710+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c606d6c-ce9d-4032-b0f5-9c85c7285fe4">
+    </UnitTestResult>
+    <UnitTestResult executionId="c022715c-8971-4599-9646-a52392c16e30" testId="be1d04c4-9300-e5a0-f43c-9f3c2353b0cc" testName="TestMethod4" computerName="clL26-14" duration="00:00:00.0002626" startTime="2013-11-20T20:09:34.1800710+01:00" endTime="2013-11-20T20:09:34.1956960+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c022715c-8971-4599-9646-a52392c16e30">
+    </UnitTestResult>
+    <UnitTestResult executionId="2c564070-633a-49c5-b048-ddbde07142b9" testId="c8baa2a6-7a39-9b09-3016-51015a35d8f0" testName="TestMethod5" computerName="clL26-14" duration="00:00:00.0002605" startTime="2013-11-20T20:09:34.1956960+01:00" endTime="2013-11-20T20:09:34.1956960+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c564070-633a-49c5-b048-ddbde07142b9">
+    </UnitTestResult>
+    <UnitTestResult executionId="eabb5882-960f-4bec-ae0b-36080d78bebf" testId="e2ef99e4-7e73-5e8d-9bc7-86702cb82740" testName="TestMethod6" computerName="clL26-14" duration="00:00:00.0002583" startTime="2013-11-20T20:09:34.1956960+01:00" endTime="2013-11-20T20:09:34.1956960+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eabb5882-960f-4bec-ae0b-36080d78bebf">
+    </UnitTestResult>
+  </Results>
+</TestRun>

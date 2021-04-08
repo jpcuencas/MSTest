@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="367a29b9-ccbd-42ff-906e-6e7400536a4d" name="Juan Pedro@JUANPEDRO-PC 2013-12-02 14:48:23" runUser="JuanPedro-PC\Juan Pedro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="79033013-3fa5-43d1-b157-ecaec7a63c00">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Juan Pedro_JUANPEDRO-PC 2013-12-02 14_48_23">
+      <DeploymentItem filename="G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-tests-example\bin\Debug\MSTest-tests-example.dll" />
+      <DeploymentItem filename="G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-12-02T14:48:23.0137635+01:00" queuing="2013-12-02T14:48:23.5707953+01:00" start="2013-12-02T14:48:23.5947967+01:00" finish="2013-12-02T14:48:24.0748241+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="6" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod6" storage="g:\master\pcc - puebas de control y desarrollo\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="2ac10a6c-85d3-1bfc-2165-428cac040b31">
+      <Execution id="e7f81c44-c8d2-4835-b68c-3ab1191e60fb" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod6" />
+    </UnitTest>
+    <UnitTest name="TestMethod4" storage="g:\master\pcc - puebas de control y desarrollo\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="ff7778d2-862f-023f-1871-922e164905cd">
+      <Execution id="2418c7c0-07b9-4342-ad98-22e0bbd819f3" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod4" />
+    </UnitTest>
+    <UnitTest name="GetImageForTimeOfDayTest_2Metodo" storage="g:\master\pcc - puebas de control y desarrollo\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="cbf4f7bb-712c-8412-028b-97b22c8be11b">
+      <Execution id="eae059b0-660d-49ae-9851-6ad4a45cc24e" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetImageForTimeOfDayTest_2Metodo" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="g:\master\pcc - puebas de control y desarrollo\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="f54840ab-2ef2-5f6a-d73b-ecf26092fa27">
+      <Execution id="bf3533b8-d0bd-4971-a1ee-d48606e653fe" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="GetImageForTimeOfDayTest" storage="g:\master\pcc - puebas de control y desarrollo\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="e345d26f-c145-058f-8f36-a824ab18e12e">
+      <Execution id="846648de-afcc-4b61-ae2e-e23e95ac58a5" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetImageForTimeOfDayTest" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="g:\master\pcc - puebas de control y desarrollo\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="a4ef3750-3a62-edbb-01d3-23e65b8adda6">
+      <Execution id="4d105a07-5a29-4f06-a1df-85f1ecf1c424" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod5" storage="g:\master\pcc - puebas de control y desarrollo\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="72d78b3d-5c5f-0ed1-e227-f579e8983f31">
+      <Execution id="67680cf0-f095-4226-803f-ceb5d8dd8b83" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod5" />
+    </UnitTest>
+    <UnitTest name="TestMethod3" storage="g:\master\pcc - puebas de control y desarrollo\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="bb64466a-8610-b48c-20bf-225bad77f307">
+      <Execution id="77ba2a4b-cb22-4f24-bb1b-ab428eccecba" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2ac10a6c-85d3-1bfc-2165-428cac040b31" executionId="e7f81c44-c8d2-4835-b68c-3ab1191e60fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72d78b3d-5c5f-0ed1-e227-f579e8983f31" executionId="67680cf0-f095-4226-803f-ceb5d8dd8b83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4ef3750-3a62-edbb-01d3-23e65b8adda6" executionId="4d105a07-5a29-4f06-a1df-85f1ecf1c424" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb64466a-8610-b48c-20bf-225bad77f307" executionId="77ba2a4b-cb22-4f24-bb1b-ab428eccecba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbf4f7bb-712c-8412-028b-97b22c8be11b" executionId="eae059b0-660d-49ae-9851-6ad4a45cc24e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e345d26f-c145-058f-8f36-a824ab18e12e" executionId="846648de-afcc-4b61-ae2e-e23e95ac58a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f54840ab-2ef2-5f6a-d73b-ecf26092fa27" executionId="bf3533b8-d0bd-4971-a1ee-d48606e653fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff7778d2-862f-023f-1871-922e164905cd" executionId="2418c7c0-07b9-4342-ad98-22e0bbd819f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e7f81c44-c8d2-4835-b68c-3ab1191e60fb" testId="2ac10a6c-85d3-1bfc-2165-428cac040b31" testName="TestMethod6" computerName="JUANPEDRO-PC" duration="00:00:00.1180881" startTime="2013-12-02T14:48:23.6307987+01:00" endTime="2013-12-02T14:48:23.9398164+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7f81c44-c8d2-4835-b68c-3ab1191e60fb">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba TestProject1.ImageManagementTest.TestMethod6 no inició la excepción esperada System.Exception.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="67680cf0-f095-4226-803f-ceb5d8dd8b83" testId="72d78b3d-5c5f-0ed1-e227-f579e8983f31" testName="TestMethod5" computerName="JUANPEDRO-PC" duration="00:00:00.0015564" startTime="2013-12-02T14:48:23.9528172+01:00" endTime="2013-12-02T14:48:23.9568174+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67680cf0-f095-4226-803f-ceb5d8dd8b83">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba TestProject1.ImageManagementTest.TestMethod5 no inició la excepción esperada System.Exception.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4d105a07-5a29-4f06-a1df-85f1ecf1c424" testId="a4ef3750-3a62-edbb-01d3-23e65b8adda6" testName="TestMethod1" computerName="JUANPEDRO-PC" duration="00:00:00.0005949" startTime="2013-12-02T14:48:23.9658179+01:00" endTime="2013-12-02T14:48:23.9688181+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d105a07-5a29-4f06-a1df-85f1ecf1c424">
+    </UnitTestResult>
+    <UnitTestResult executionId="77ba2a4b-cb22-4f24-bb1b-ab428eccecba" testId="bb64466a-8610-b48c-20bf-225bad77f307" testName="TestMethod3" computerName="JUANPEDRO-PC" duration="00:00:00.0004723" startTime="2013-12-02T14:48:23.9778186+01:00" endTime="2013-12-02T14:48:23.9808188+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77ba2a4b-cb22-4f24-bb1b-ab428eccecba">
+    </UnitTestResult>
+    <UnitTestResult executionId="eae059b0-660d-49ae-9851-6ad4a45cc24e" testId="cbf4f7bb-712c-8412-028b-97b22c8be11b" testName="GetImageForTimeOfDayTest_2Metodo" computerName="JUANPEDRO-PC" duration="00:00:00.0010515" startTime="2013-12-02T14:48:23.9898193+01:00" endTime="2013-12-02T14:48:23.9958196+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eae059b0-660d-49ae-9851-6ad4a45cc24e">
+    </UnitTestResult>
+    <UnitTestResult executionId="846648de-afcc-4b61-ae2e-e23e95ac58a5" testId="e345d26f-c145-058f-8f36-a824ab18e12e" testName="GetImageForTimeOfDayTest" computerName="JUANPEDRO-PC" duration="00:00:00.0186738" startTime="2013-12-02T14:48:24.0048201+01:00" endTime="2013-12-02T14:48:24.0278215+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="846648de-afcc-4b61-ae2e-e23e95ac58a5">
+    </UnitTestResult>
+    <UnitTestResult executionId="bf3533b8-d0bd-4971-a1ee-d48606e653fe" testId="f54840ab-2ef2-5f6a-d73b-ecf26092fa27" testName="TestMethod2" computerName="JUANPEDRO-PC" duration="00:00:00.0005295" startTime="2013-12-02T14:48:24.0368220+01:00" endTime="2013-12-02T14:48:24.0398221+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf3533b8-d0bd-4971-a1ee-d48606e653fe">
+    </UnitTestResult>
+    <UnitTestResult executionId="2418c7c0-07b9-4342-ad98-22e0bbd819f3" testId="ff7778d2-862f-023f-1871-922e164905cd" testName="TestMethod4" computerName="JUANPEDRO-PC" duration="00:00:00.0005225" startTime="2013-12-02T14:48:24.0488227+01:00" endTime="2013-12-02T14:48:24.0518228+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2418c7c0-07b9-4342-ad98-22e0bbd819f3">
+    </UnitTestResult>
+  </Results>
+</TestRun>

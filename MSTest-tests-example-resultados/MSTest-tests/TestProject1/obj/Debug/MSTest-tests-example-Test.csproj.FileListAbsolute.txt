@@ -1,0 +1,36 @@
+D:\My Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+D:\My Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\TestProject1.dll
+D:\My Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\TestProject1.pdb
+D:\My Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\Moq.dll
+D:\My Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\MSTest-tests-example.dll
+D:\My Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\MSTest-tests-example.pdb
+D:\My Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\Moq.pdb
+D:\My Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\Moq.xml
+D:\My Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\obj\Debug\TestProject1.dll
+D:\My Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\obj\Debug\TestProject1.pdb
+D:\My Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\MSTest-tests-example_Accessor.dll
+D:\My Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\MSTest-tests-example_Accessor.pdb
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\obj\Debug\MSTest-tests-example-Test.csprojResolveAssemblyReference.cache
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\TestProject1.dll
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\TestProject1.pdb
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\Moq.dll
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\MSTest-tests-example.dll
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\MSTest-tests-example.pdb
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\Moq.pdb
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\Moq.xml
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\MSTest-tests-example_Accessor.dll
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\bin\Debug\MSTest-tests-example_Accessor.pdb
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\obj\Debug\TestProject1.dll
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\TestProject1\obj\Debug\TestProject1.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\bin\Debug\TestProject1.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\bin\Debug\TestProject1.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\bin\Debug\Moq.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\bin\Debug\MSTest-tests-example.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\bin\Debug\MSTest-tests-example.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\bin\Debug\Moq.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\bin\Debug\Moq.xml
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\bin\Debug\MSTest-tests-example_Accessor.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\bin\Debug\MSTest-tests-example_Accessor.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\obj\Debug\TestProject1.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\obj\Debug\TestProject1.pdb

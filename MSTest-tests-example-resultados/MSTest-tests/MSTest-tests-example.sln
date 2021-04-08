@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTest-tests-example", "MSTest-tests-example\MSTest-tests-example.csproj", "{883463B3-CF34-49FF-9E88-7C58D56EC570}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3442361-B90E-446E-AE52-A5A6045D982C}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		MSTest-tests-example1.vsmdi = MSTest-tests-example1.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTest-tests-example-Test", "TestProject1\MSTest-tests-example-Test.csproj", "{8215B495-F4F4-488D-83C9-F87D97078478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTest-specflow-example-Test", "MSTest-specflow-example-Test\MSTest-specflow-example-Test.csproj", "{27C073E6-ED91-499B-923E-C94C0E8B3898}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MSTest-tests-example1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{883463B3-CF34-49FF-9E88-7C58D56EC570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883463B3-CF34-49FF-9E88-7C58D56EC570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883463B3-CF34-49FF-9E88-7C58D56EC570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883463B3-CF34-49FF-9E88-7C58D56EC570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8215B495-F4F4-488D-83C9-F87D97078478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8215B495-F4F4-488D-83C9-F87D97078478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8215B495-F4F4-488D-83C9-F87D97078478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8215B495-F4F4-488D-83C9-F87D97078478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C073E6-ED91-499B-923E-C94C0E8B3898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C073E6-ED91-499B-923E-C94C0E8B3898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C073E6-ED91-499B-923E-C94C0E8B3898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C073E6-ED91-499B-923E-C94C0E8B3898}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

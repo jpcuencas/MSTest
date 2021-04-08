@@ -1,0 +1,24 @@
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-specflow-example-Test\bin\Debug\MSTest-specflow-example-Test.dll.config
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-specflow-example-Test\bin\Debug\MSTest-specflow-example-Test.dll
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-specflow-example-Test\bin\Debug\MSTest-specflow-example-Test.pdb
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-specflow-example-Test\bin\Debug\Moq.dll
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-specflow-example-Test\bin\Debug\MSTest-tests-example.dll
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-specflow-example-Test\bin\Debug\TechTalk.SpecFlow.dll
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-specflow-example-Test\bin\Debug\MSTest-tests-example.pdb
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-specflow-example-Test\bin\Debug\Moq.pdb
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-specflow-example-Test\bin\Debug\Moq.xml
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-specflow-example-Test\obj\Debug\MSTest-specflow-example-Test.csprojResolveAssemblyReference.cache
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-specflow-example-Test\obj\Debug\MSTest-specflow-example-Test.dll
+G:\Master\PCC - Puebas de control y desarrollo\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-specflow-example-Test\obj\Debug\MSTest-specflow-example-Test.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\obj\Debug\ResolveAssemblyReference.cache
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\obj\Debug\MSTest-specflow-example-Test.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\obj\Debug\MSTest-specflow-example-Test.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\bin\Debug\MSTest-specflow-example-Test.dll.config
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\bin\Debug\MSTest-specflow-example-Test.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\bin\Debug\MSTest-specflow-example-Test.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\bin\Debug\Moq.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\bin\Debug\MSTest-tests-example.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\bin\Debug\TechTalk.SpecFlow.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\bin\Debug\MSTest-tests-example.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\bin\Debug\Moq.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\bin\Debug\Moq.xml

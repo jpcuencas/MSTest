@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bd3c33d5-85d0-4945-9851-edd483868eab" name="Joseja@JOSEJA-PC 2012-12-03 11:11:02" runUser="Joseja-PC\Joseja" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="79033013-3fa5-43d1-b157-ecaec7a63c00">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Joseja_JOSEJA-PC 2012-12-03 11_11_02">
+      <DeploymentItem filename="C:\Users\Joseja\Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Users\Joseja\Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-tests-example\bin\Debug\MSTest-tests-example.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-12-03T11:11:02.2606190+01:00" queuing="2012-12-03T11:11:03.7606190+01:00" start="2012-12-03T11:11:03.8699940+01:00" finish="2012-12-03T11:11:04.9324940+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetImageForTimeOfDayTest" storage="c:\users\joseja\dropbox\master\2012-2013\pruebas unitarias\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="e345d26f-c145-058f-8f36-a824ab18e12e">
+      <Execution id="753e12f1-2d72-4ecd-8d83-002bdfce054b" />
+      <TestMethod codeBase="C:/Users/Joseja/Dropbox/Master/2012-2013/Pruebas unitarias/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetImageForTimeOfDayTest" />
+    </UnitTest>
+    <UnitTest name="CustomReplaceTest" storage="c:\users\joseja\dropbox\master\2012-2013\pruebas unitarias\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="532852b3-9a5f-80c9-22c1-a7a66687eeb9">
+      <Execution id="1b4a64cb-d5ef-4705-b68c-4256b9248444" />
+      <TestMethod codeBase="C:/Users/Joseja/Dropbox/Master/2012-2013/Pruebas unitarias/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CustomReplacerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CustomReplaceTest" />
+    </UnitTest>
+    <UnitTest name="IsValidPasswordTest" storage="c:\users\joseja\dropbox\master\2012-2013\pruebas unitarias\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="aa063b67-59cf-d993-101d-37aca83b2793">
+      <DeploymentItems>
+        <DeploymentItem filename="MSTest-tests-example.dll" />
+      </DeploymentItems>
+      <Execution id="8e444f7c-1f3f-4759-926e-377a59a71be2" />
+      <TestMethod codeBase="C:/Users/Joseja/Dropbox/Master/2012-2013/Pruebas unitarias/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidPasswordTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="532852b3-9a5f-80c9-22c1-a7a66687eeb9" executionId="1b4a64cb-d5ef-4705-b68c-4256b9248444" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa063b67-59cf-d993-101d-37aca83b2793" executionId="8e444f7c-1f3f-4759-926e-377a59a71be2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e345d26f-c145-058f-8f36-a824ab18e12e" executionId="753e12f1-2d72-4ecd-8d83-002bdfce054b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1b4a64cb-d5ef-4705-b68c-4256b9248444" testId="532852b3-9a5f-80c9-22c1-a7a66687eeb9" testName="CustomReplaceTest" computerName="JOSEJA-PC" duration="00:00:00.1784217" startTime="2012-12-03T11:11:03.8856190+01:00" endTime="2012-12-03T11:11:04.3074940+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b4a64cb-d5ef-4705-b68c-4256b9248444">
+    </UnitTestResult>
+    <UnitTestResult executionId="8e444f7c-1f3f-4759-926e-377a59a71be2" testId="aa063b67-59cf-d993-101d-37aca83b2793" testName="IsValidPasswordTest" computerName="JOSEJA-PC" duration="00:00:00.0022724" startTime="2012-12-03T11:11:04.3231190+01:00" endTime="2012-12-03T11:11:04.3231190+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e444f7c-1f3f-4759-926e-377a59a71be2">
+    </UnitTestResult>
+    <UnitTestResult executionId="753e12f1-2d72-4ecd-8d83-002bdfce054b" testId="e345d26f-c145-058f-8f36-a824ab18e12e" testName="GetImageForTimeOfDayTest" computerName="JOSEJA-PC" duration="00:00:00.5270504" startTime="2012-12-03T11:11:04.3387440+01:00" endTime="2012-12-03T11:11:04.8699940+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="753e12f1-2d72-4ecd-8d83-002bdfce054b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,25 @@
+C:\Documents and Settings\Usuario\Escritorio\Recurs\MSTest-tests-example\nunit-tests-example\bin\Debug\MSTest-tests-example.dll
+C:\Documents and Settings\Usuario\Escritorio\Recurs\MSTest-tests-example\nunit-tests-example\bin\Debug\MSTest-tests-example.pdb
+C:\Documents and Settings\Usuario\Escritorio\Recurs\MSTest-tests-example\nunit-tests-example\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Usuario\Escritorio\Recurs\MSTest-tests-example\nunit-tests-example\obj\Debug\MSTest-tests-example.dll
+C:\Documents and Settings\Usuario\Escritorio\Recurs\MSTest-tests-example\nunit-tests-example\obj\Debug\MSTest-tests-example.pdb
+C:\Documents and Settings\Usuario\Escritorio\Recurs\MSTest-tests-example\MSTest-tests-example\bin\Debug\MSTest-tests-example.dll
+C:\Documents and Settings\Usuario\Escritorio\Recurs\MSTest-tests-example\MSTest-tests-example\bin\Debug\MSTest-tests-example.pdb
+C:\Documents and Settings\Usuario\Escritorio\Recurs\MSTest-tests-example\MSTest-tests-example\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Usuario\Escritorio\Recurs\MSTest-tests-example\MSTest-tests-example\obj\Debug\MSTest-tests-example.dll
+C:\Documents and Settings\Usuario\Escritorio\Recurs\MSTest-tests-example\MSTest-tests-example\obj\Debug\MSTest-tests-example.pdb
+C:\Documents and Settings\Usuario\Escritorio\Recursos\MSTest-tests-example\MSTest-tests-example\bin\Debug\MSTest-tests-example.dll
+C:\Documents and Settings\Usuario\Escritorio\Recursos\MSTest-tests-example\MSTest-tests-example\bin\Debug\MSTest-tests-example.pdb
+C:\Documents and Settings\Usuario\Escritorio\Recursos\MSTest-tests-example\MSTest-tests-example\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Usuario\Escritorio\Recursos\MSTest-tests-example\MSTest-tests-example\obj\Debug\MSTest-tests-example.dll
+C:\Documents and Settings\Usuario\Escritorio\Recursos\MSTest-tests-example\MSTest-tests-example\obj\Debug\MSTest-tests-example.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example\MSTest-tests-example\bin\Debug\MSTest-tests-example.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example\MSTest-tests-example\bin\Debug\MSTest-tests-example.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example\MSTest-tests-example\obj\Debug\ResolveAssemblyReference.cache
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example\MSTest-tests-example\obj\Debug\MSTest-tests-example.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example\MSTest-tests-example\obj\Debug\MSTest-tests-example.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example(caja Blanca)\MSTest-tests-example\bin\Debug\MSTest-tests-example.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example(caja Blanca)\MSTest-tests-example\bin\Debug\MSTest-tests-example.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example(caja Blanca)\MSTest-tests-example\obj\Debug\ResolveAssemblyReference.cache
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example(caja Blanca)\MSTest-tests-example\obj\Debug\MSTest-tests-example.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example(caja Blanca)\MSTest-tests-example\obj\Debug\MSTest-tests-example.pdb

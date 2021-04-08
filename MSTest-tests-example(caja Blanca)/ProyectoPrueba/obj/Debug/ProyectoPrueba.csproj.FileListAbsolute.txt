@@ -1,0 +1,7 @@
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example(caja Blanca)\ProyectoPrueba\bin\Debug\ProyectoPrueba.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example(caja Blanca)\ProyectoPrueba\bin\Debug\ProyectoPrueba.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example(caja Blanca)\ProyectoPrueba\bin\Debug\MSTest-tests-example.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example(caja Blanca)\ProyectoPrueba\bin\Debug\MSTest-tests-example.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example(caja Blanca)\ProyectoPrueba\obj\Debug\ResolveAssemblyReference.cache
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example(caja Blanca)\ProyectoPrueba\obj\Debug\ProyectoPrueba.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example(caja Blanca)\ProyectoPrueba\obj\Debug\ProyectoPrueba.pdb

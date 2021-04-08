@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="94565eeb-214c-4108-9efd-d6b3b983ac80" name="Joseja@PORTATIL-JOSEJA 2012-11-23 11:24:51" runUser="Portatil-Joseja\Joseja" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="79033013-3fa5-43d1-b157-ecaec7a63c00">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Joseja_PORTATIL-JOSEJA 2012-11-23 11_24_51">
+      <DeploymentItem filename="D:\My Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-tests-example\bin\Debug\MSTest-tests-example.dll" />
+      <DeploymentItem filename="D:\My Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-23T11:24:51.4426008+01:00" queuing="2012-11-23T11:24:51.4894009+01:00" start="2012-11-23T11:24:51.5986011+01:00" finish="2012-11-23T11:24:52.0510019+01:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PORTATIL-JOSEJA" outcome="Warning" timestamp="2012-11-23T11:24:51.4894009+01:00">
+        <Text>Deployment is currently disabled. The deployment item 'MSTest-tests-example.dll' on test 'TestProject1.LogonInfoTest.IsValidPasswordTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IsValidPasswordTest" storage="d:\my dropbox\master\2012-2013\pruebas unitarias\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="aa063b67-59cf-d993-101d-37aca83b2793">
+      <DeploymentItems>
+        <DeploymentItem filename="MSTest-tests-example.dll" />
+      </DeploymentItems>
+      <Execution id="d42931c7-094a-4ab1-a8d9-08e6840087b9" />
+      <TestMethod codeBase="D:/My Dropbox/Master/2012-2013/Pruebas unitarias/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidPasswordTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="aa063b67-59cf-d993-101d-37aca83b2793" executionId="d42931c7-094a-4ab1-a8d9-08e6840087b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d42931c7-094a-4ab1-a8d9-08e6840087b9" testId="aa063b67-59cf-d993-101d-37aca83b2793" testName="IsValidPasswordTest" computerName="PORTATIL-JOSEJA" duration="00:00:00.0175587" startTime="2012-11-23T11:24:51.6766012+01:00" endTime="2012-11-23T11:24:52.0042018+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d42931c7-094a-4ab1-a8d9-08e6840087b9">
+    </UnitTestResult>
+  </Results>
+</TestRun>

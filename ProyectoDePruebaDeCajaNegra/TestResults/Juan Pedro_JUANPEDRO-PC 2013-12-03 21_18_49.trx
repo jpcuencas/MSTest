@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="db3e0b4a-a4cb-4563-8b77-6b5385915309" name="Juan Pedro@JUANPEDRO-PC 2013-12-03 21:18:49" runUser="JuanPedro-PC\Juan Pedro" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="21b3f13a-1a3c-444b-811b-e3a6a1dbe648">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Juan Pedro_JUANPEDRO-PC 2013-12-03 21_18_49">
+      <DeploymentItem filename="G:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\TriangleDetector.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-12-03T21:18:49.7283639+01:00" queuing="2013-12-03T21:18:49.7493651+01:00" start="2013-12-03T21:18:49.7533653+01:00" finish="2013-12-03T21:18:50.1153860+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="10" executed="10" passed="3" error="0" failed="7" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Prueba_EsTriangulo2" storage="g:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="34972ed4-99e4-a8d0-f13e-5cae23953a2e">
+      <Execution id="e88257fd-35ad-4097-8338-1d5445a9a981" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo2" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo1" storage="g:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="e33cb571-710e-a9a4-e08d-609aa7048877">
+      <Execution id="28200b24-f115-4c46-a176-86a5c5148a7f" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo1" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo5" storage="g:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="1857a141-fc60-2354-3193-9e8d48781fa3">
+      <Execution id="13a35254-371f-498e-8072-af106abc0652" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo5" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo8" storage="g:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="3d32e5c4-d528-5687-dd54-7a0baa27db3c">
+      <Execution id="79a4af70-fd94-4a3c-8b41-8308253b704e" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo8" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo3" storage="g:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="3836f357-7d08-b934-e50d-16e5bc3dc884">
+      <Execution id="7841b52d-44ea-4717-b577-f90f64e57f8d" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo3" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo7" storage="g:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="ec6c3088-5cb3-a09e-5734-84e2dbf76e39">
+      <Execution id="1c1ffe73-7645-439c-8bd2-f248ce07a487" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo7" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo4" storage="g:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="cf23e9dd-309e-92fe-c3c9-c080354d22b2">
+      <Execution id="cf817423-ddb9-4277-ad1e-74b0ba568ac0" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo4" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo10" storage="g:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="7b43bc24-c25d-a421-9bda-93ea43cd1afd">
+      <Execution id="a6b3b4d7-9538-4652-90b2-2e7bc2be4582" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo10" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo9" storage="g:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="00d60cb3-a64c-e946-fe5a-47a170a64d4c">
+      <Execution id="7595e972-cfc1-4a06-ac14-6af36180d6c6" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo9" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo6" storage="g:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="0b92605c-28a2-2e0e-f941-64236c63aa4a">
+      <Execution id="070d2233-aeb0-4404-ad41-2c88dce541fa" />
+      <TestMethod codeBase="G:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo6" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="00d60cb3-a64c-e946-fe5a-47a170a64d4c" executionId="7595e972-cfc1-4a06-ac14-6af36180d6c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b92605c-28a2-2e0e-f941-64236c63aa4a" executionId="070d2233-aeb0-4404-ad41-2c88dce541fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1857a141-fc60-2354-3193-9e8d48781fa3" executionId="13a35254-371f-498e-8072-af106abc0652" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34972ed4-99e4-a8d0-f13e-5cae23953a2e" executionId="e88257fd-35ad-4097-8338-1d5445a9a981" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3836f357-7d08-b934-e50d-16e5bc3dc884" executionId="7841b52d-44ea-4717-b577-f90f64e57f8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d32e5c4-d528-5687-dd54-7a0baa27db3c" executionId="79a4af70-fd94-4a3c-8b41-8308253b704e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b43bc24-c25d-a421-9bda-93ea43cd1afd" executionId="a6b3b4d7-9538-4652-90b2-2e7bc2be4582" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf23e9dd-309e-92fe-c3c9-c080354d22b2" executionId="cf817423-ddb9-4277-ad1e-74b0ba568ac0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e33cb571-710e-a9a4-e08d-609aa7048877" executionId="28200b24-f115-4c46-a176-86a5c5148a7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec6c3088-5cb3-a09e-5734-84e2dbf76e39" executionId="1c1ffe73-7645-439c-8bd2-f248ce07a487" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7595e972-cfc1-4a06-ac14-6af36180d6c6" testId="00d60cb3-a64c-e946-fe5a-47a170a64d4c" testName="Prueba_EsTriangulo9" computerName="JUANPEDRO-PC" duration="00:00:00.0284135" startTime="2013-12-03T21:18:49.7983679+01:00" endTime="2013-12-03T21:18:49.9633773+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7595e972-cfc1-4a06-ac14-6af36180d6c6">
+      <Output>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;escaleno&gt;, pero es &lt;isosceles&gt;. </Message>
+          <StackTrace>   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo9() en c:\documents and settings\eps\mis documentos\visual studio 2010\Projects\ProyectoDePrueba\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 271
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="070d2233-aeb0-4404-ad41-2c88dce541fa" testId="0b92605c-28a2-2e0e-f941-64236c63aa4a" testName="Prueba_EsTriangulo6" computerName="JUANPEDRO-PC" duration="00:00:00.0001870" startTime="2013-12-03T21:18:49.9883787+01:00" endTime="2013-12-03T21:18:49.9903788+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="070d2233-aeb0-4404-ad41-2c88dce541fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="13a35254-371f-498e-8072-af106abc0652" testId="1857a141-fc60-2354-3193-9e8d48781fa3" testName="Prueba_EsTriangulo5" computerName="JUANPEDRO-PC" duration="00:00:00.0011251" startTime="2013-12-03T21:18:49.9993794+01:00" endTime="2013-12-03T21:18:50.0033796+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13a35254-371f-498e-8072-af106abc0652">
+      <Output>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;isosceles&gt;, pero es &lt;escaleno&gt;. </Message>
+          <StackTrace>   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo5() en c:\documents and settings\eps\mis documentos\visual studio 2010\Projects\ProyectoDePrueba\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 163
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e88257fd-35ad-4097-8338-1d5445a9a981" testId="34972ed4-99e4-a8d0-f13e-5cae23953a2e" testName="Prueba_EsTriangulo2" computerName="JUANPEDRO-PC" duration="00:00:00.0010987" startTime="2013-12-03T21:18:50.0123801+01:00" endTime="2013-12-03T21:18:50.0163803+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e88257fd-35ad-4097-8338-1d5445a9a981">
+      <Output>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;equilatero&gt;, pero es &lt;escaleno&gt;. </Message>
+          <StackTrace>   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo2() en c:\documents and settings\eps\mis documentos\visual studio 2010\Projects\ProyectoDePrueba\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 81
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7841b52d-44ea-4717-b577-f90f64e57f8d" testId="3836f357-7d08-b934-e50d-16e5bc3dc884" testName="Prueba_EsTriangulo3" computerName="JUANPEDRO-PC" duration="00:00:00.0011963" startTime="2013-12-03T21:18:50.0243808+01:00" endTime="2013-12-03T21:18:50.0283810+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7841b52d-44ea-4717-b577-f90f64e57f8d">
+      <Output>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;equilatero&gt;, pero es &lt;isosceles&gt;. </Message>
+          <StackTrace>   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo3() en c:\documents and settings\eps\mis documentos\visual studio 2010\Projects\ProyectoDePrueba\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 107
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="79a4af70-fd94-4a3c-8b41-8308253b704e" testId="3d32e5c4-d528-5687-dd54-7a0baa27db3c" testName="Prueba_EsTriangulo8" computerName="JUANPEDRO-PC" duration="00:00:00.0001489" startTime="2013-12-03T21:18:50.0373815+01:00" endTime="2013-12-03T21:18:50.0403817+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79a4af70-fd94-4a3c-8b41-8308253b704e">
+    </UnitTestResult>
+    <UnitTestResult executionId="a6b3b4d7-9538-4652-90b2-2e7bc2be4582" testId="7b43bc24-c25d-a421-9bda-93ea43cd1afd" testName="Prueba_EsTriangulo10" computerName="JUANPEDRO-PC" duration="00:00:00.0049940" startTime="2013-12-03T21:18:50.0493822+01:00" endTime="2013-12-03T21:18:50.0563826+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6b3b4d7-9538-4652-90b2-2e7bc2be4582">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo10 inició la excepción System.Exception, pero se esperaba la excepción System.ArgumentException. Mensaje de la excepción: System.Exception: No es triangulo</Message>
+          <StackTrace>    en TriangleDetector.TriangleValidator.EsTriangulo(Int32 lado1, Int32 lado2, Int32 lado3)
+   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo10() en c:\documents and settings\eps\mis documentos\visual studio 2010\Projects\ProyectoDePrueba\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 292
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cf817423-ddb9-4277-ad1e-74b0ba568ac0" testId="cf23e9dd-309e-92fe-c3c9-c080354d22b2" testName="Prueba_EsTriangulo4" computerName="JUANPEDRO-PC" duration="00:00:00.0011345" startTime="2013-12-03T21:18:50.0663832+01:00" endTime="2013-12-03T21:18:50.0693834+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf817423-ddb9-4277-ad1e-74b0ba568ac0">
+      <Output>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;isosceles&gt;, pero es &lt;equilatero&gt;. </Message>
+          <StackTrace>   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo4() en c:\documents and settings\eps\mis documentos\visual studio 2010\Projects\ProyectoDePrueba\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 135
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="28200b24-f115-4c46-a176-86a5c5148a7f" testId="e33cb571-710e-a9a4-e08d-609aa7048877" testName="Prueba_EsTriangulo1" computerName="JUANPEDRO-PC" duration="00:00:00.0001530" startTime="2013-12-03T21:18:50.0783839+01:00" endTime="2013-12-03T21:18:50.0813840+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28200b24-f115-4c46-a176-86a5c5148a7f">
+    </UnitTestResult>
+    <UnitTestResult executionId="1c1ffe73-7645-439c-8bd2-f248ce07a487" testId="ec6c3088-5cb3-a09e-5734-84e2dbf76e39" testName="Prueba_EsTriangulo7" computerName="JUANPEDRO-PC" duration="00:00:00.0011570" startTime="2013-12-03T21:18:50.0903846+01:00" endTime="2013-12-03T21:18:50.0933847+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c1ffe73-7645-439c-8bd2-f248ce07a487">
+      <Output>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;escaleno&gt;, pero es &lt;equilatero&gt;. </Message>
+          <StackTrace>   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo7() en c:\documents and settings\eps\mis documentos\visual studio 2010\Projects\ProyectoDePrueba\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 217
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

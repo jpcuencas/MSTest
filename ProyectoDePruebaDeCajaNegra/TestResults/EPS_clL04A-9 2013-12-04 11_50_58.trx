@@ -1,0 +1,770 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aac65b0e-93a8-4b91-84d5-73ac8e17f47e" name="EPS@clL04A-9 2013-12-04 11:50:58" runUser="clL04A-9\EPS" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="21b3f13a-1a3c-444b-811b-e3a6a1dbe648">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="EPS_clL04A-9 2013-12-04 11_50_58">
+      <DeploymentItem filename="E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\TriangleDetector.dll" />
+      <DeploymentItem filename="E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\packages\NUnit.2.6.3\lib\nunit.framework.dll" />
+      <DeploymentItem filename="E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-12-04T11:50:58.3281250+01:00" queuing="2013-12-04T11:50:58.4218750+01:00" start="2013-12-04T11:50:58.4375000+01:00" finish="2013-12-04T11:50:59.0156250+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="29" executed="29" passed="6" error="0" failed="23" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Prueba_EsTriangulo13" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="48f013ed-83ed-7a03-d949-9633da4c2f1f">
+      <Execution id="5539ad88-fafa-4160-a8b6-8c4d6d7b488c" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo13" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo18" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="2eadf1ee-cde2-e639-e9a8-0e1bc8aa5953">
+      <Execution id="c6feb9e9-1529-4602-a2a0-a5b72d39c5aa" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo18" />
+    </UnitTest>
+    <UnitTest name="LadosInconclusosOtras3Letras" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="ab6bc88a-5dd8-7e78-b9e4-a35e56c39a9f">
+      <Description>Lados inconclusos otras 3 letras</Description>
+      <Execution id="98e2190a-bc17-4d36-9a4b-9434d6f29d40" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LadosInconclusosOtras3Letras" />
+    </UnitTest>
+    <UnitTest name="SiSoloDosLadosSonNegativos" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="0df197d2-a3f6-3d0b-b86d-a8cf76a266d0">
+      <Description>si solo dos lados son negativos</Description>
+      <Execution id="fffc45d8-bdd4-4b9d-8776-5071ff5cdff2" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiSoloDosLadosSonNegativos" />
+    </UnitTest>
+    <UnitTest name="SiTenemosDosLadosSonNegativos" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="a8f72322-0320-9ea7-908f-b82c8f9286d9">
+      <Description>si tenemos dos lados son negativos</Description>
+      <Execution id="4344d25f-163f-4797-b389-34503dff02eb" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiTenemosDosLadosSonNegativos" />
+    </UnitTest>
+    <UnitTest name="SiLosLadosSonIguales" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="10a35410-3079-961b-5083-ed9ef4936f5f">
+      <Description>si los lados son iguales</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="mytag" />
+      </TestCategory>
+      <Execution id="35214adf-aed8-43e4-b146-3f18ff2f555c" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiLosLadosSonIguales" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo17" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="ccbc53bf-4918-2d9c-deb7-c7d41ee4b9f3">
+      <Execution id="75092c83-b7be-418f-a1ab-dd7dba4ff72b" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo17" />
+    </UnitTest>
+    <UnitTest name="LadosInconclusosOtras2Letras" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="a1e33a82-7d06-7dc1-c47b-a3c1b160ab66">
+      <Description>Lados inconclusos otras 2 letras</Description>
+      <Execution id="7d42ae55-8baa-4582-bb34-381080509b05" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LadosInconclusosOtras2Letras" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo5" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="1857a141-fc60-2354-3193-9e8d48781fa3">
+      <Execution id="2852d87e-6d99-4079-bcc6-dec8582ef77e" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo5" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo15" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="f57e65be-94e7-0b53-634c-d6035e3fc71c">
+      <Execution id="46ddec1a-bbca-4ea7-87c5-0853f3e828bf" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo15" />
+    </UnitTest>
+    <UnitTest name="SiLosLadosSonDiferentes" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="10208aa5-00d8-d3ff-2c98-429f9be55ef4">
+      <Description>si los lados son diferentes</Description>
+      <Execution id="801fcb58-61ca-47e9-9ecc-37af872ed3a0" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiLosLadosSonDiferentes" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo12" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="e6e26bed-50e2-cd0f-6f38-0db97e23cac4">
+      <Execution id="11ca52e7-6d59-440b-b33e-2a6ae2240e8e" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo12" />
+    </UnitTest>
+    <UnitTest name="SiDosDeSusLadosSonDiferentes" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="079a6416-71d2-4ac9-d1fd-5e030811a3aa">
+      <Description>si dos de sus lados son diferentes</Description>
+      <Execution id="c6b44ea2-3d62-42eb-9c24-73840dc44198" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiDosDeSusLadosSonDiferentes" />
+    </UnitTest>
+    <UnitTest name="LadosInconclusosTresLetras" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="652536f2-1547-d1f2-6479-9e796445d2a6">
+      <Description>Lados inconclusos tres letras</Description>
+      <Execution id="fee79d5e-2a31-40f5-86f7-318c5582a7f9" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LadosInconclusosTresLetras" />
+    </UnitTest>
+    <UnitTest name="SiSegundoLadosSonCero" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="327fdb4f-3500-3bd9-5e88-dcecc48fac8b">
+      <Description>si segundo lados son cero</Description>
+      <Execution id="0c0d0820-6130-4f01-8ba0-d4338f6fcdbe" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiSegundoLadosSonCero" />
+    </UnitTest>
+    <UnitTest name="LadosInconclusos2Letras" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="7cab85fb-737b-76d5-d10d-2d77d938322b">
+      <Description>Lados inconclusos 2 letras</Description>
+      <Execution id="236a8bae-fc97-41e6-a132-268b6d06052c" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LadosInconclusos2Letras" />
+    </UnitTest>
+    <UnitTest name="LadosInconclusos" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="9ce18471-95b5-e985-01e9-6acec7ef9ef9">
+      <Description>Lados inconclusos</Description>
+      <Execution id="2fe63356-670a-41a0-b284-f01e573155ba" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LadosInconclusos" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo10" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="7b43bc24-c25d-a421-9bda-93ea43cd1afd">
+      <Execution id="66c35d22-caaf-492e-bce5-8297cef152c6" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo10" />
+    </UnitTest>
+    <UnitTest name="SiLosLadosSonNegativos" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="e4e7bed6-6fff-dd03-b020-b5e5d49795b1">
+      <Description>si los lados son negativos</Description>
+      <Execution id="52ebfef9-cc96-4fb5-a6e0-cf169bbe23e5" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiLosLadosSonNegativos" />
+    </UnitTest>
+    <UnitTest name="SiLosLadosSonCero" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="60ba6f03-0a08-54f1-e073-09a0aa3d13fe">
+      <Description>si los lados son cero</Description>
+      <Execution id="4092f92a-e931-4984-bb53-ac666e395a6c" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiLosLadosSonCero" />
+    </UnitTest>
+    <UnitTest name="LadosInconclusos3LetrasIguales" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="9a2cf896-3aa4-c4f3-f076-1d30499b44d0">
+      <Description>Lados inconclusos 3 letras iguales</Description>
+      <Execution id="604d439e-1f77-487f-b156-fcb443ac8deb" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LadosInconclusos3LetrasIguales" />
+    </UnitTest>
+    <UnitTest name="SiTerceroLadosSonCero" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="5f42256c-f495-ff50-743c-2d582deb12b3">
+      <Description>si tercero lados son cero</Description>
+      <Execution id="106e6ba1-3b77-42f6-a3b1-4d125c96b95f" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiTerceroLadosSonCero" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo11" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="e550d784-9477-315b-5b2a-a50f87ea5b93">
+      <Execution id="cba507e2-39dd-4314-80fe-95af1b45f2b5" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo11" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo4" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="cf23e9dd-309e-92fe-c3c9-c080354d22b2">
+      <Execution id="66990227-abdd-41f3-acd6-c36887d8b77f" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo4" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo16" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="2b751b65-8961-5bac-8043-2e6e6adf1404">
+      <Execution id="24261b96-3c48-43f9-8503-959e8829ed4b" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo16" />
+    </UnitTest>
+    <UnitTest name="SiPrimerLadosSonCero" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="5f4098b0-ae70-0c38-73d5-3680aa6f5adc">
+      <Description>si primer lados son cero</Description>
+      <Execution id="355ef6e9-ed4b-436a-abf1-b8043fc3a38e" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiPrimerLadosSonCero" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo6" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="0b92605c-28a2-2e0e-f941-64236c63aa4a">
+      <Execution id="d2f85cbe-65a9-4030-927f-5c0d9a90a81d" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo6" />
+    </UnitTest>
+    <UnitTest name="SiDosLadosSonNegativos" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="0ee955cb-e569-7bbe-d0ca-defed9f3466f">
+      <Description>si dos lados son negativos</Description>
+      <Execution id="4f721df5-6215-49cb-83a1-713fcf98ecbf" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Triangle_detector</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Triangle_DetectorFeature, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SiDosLadosSonNegativos" />
+    </UnitTest>
+    <UnitTest name="Prueba_EsTriangulo14" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\proyectodepruebadecajanegra\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="ef832253-a6a5-308d-4448-99447b717871">
+      <Execution id="e46f825a-9f98-4a0e-8e50-0bbc276c0770" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/ProyectoDePruebaDeCajaNegra/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo14" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="079a6416-71d2-4ac9-d1fd-5e030811a3aa" executionId="c6b44ea2-3d62-42eb-9c24-73840dc44198" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b92605c-28a2-2e0e-f941-64236c63aa4a" executionId="d2f85cbe-65a9-4030-927f-5c0d9a90a81d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0df197d2-a3f6-3d0b-b86d-a8cf76a266d0" executionId="fffc45d8-bdd4-4b9d-8776-5071ff5cdff2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ee955cb-e569-7bbe-d0ca-defed9f3466f" executionId="4f721df5-6215-49cb-83a1-713fcf98ecbf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10208aa5-00d8-d3ff-2c98-429f9be55ef4" executionId="801fcb58-61ca-47e9-9ecc-37af872ed3a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10a35410-3079-961b-5083-ed9ef4936f5f" executionId="35214adf-aed8-43e4-b146-3f18ff2f555c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1857a141-fc60-2354-3193-9e8d48781fa3" executionId="2852d87e-6d99-4079-bcc6-dec8582ef77e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b751b65-8961-5bac-8043-2e6e6adf1404" executionId="24261b96-3c48-43f9-8503-959e8829ed4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2eadf1ee-cde2-e639-e9a8-0e1bc8aa5953" executionId="c6feb9e9-1529-4602-a2a0-a5b72d39c5aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="327fdb4f-3500-3bd9-5e88-dcecc48fac8b" executionId="0c0d0820-6130-4f01-8ba0-d4338f6fcdbe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48f013ed-83ed-7a03-d949-9633da4c2f1f" executionId="5539ad88-fafa-4160-a8b6-8c4d6d7b488c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f4098b0-ae70-0c38-73d5-3680aa6f5adc" executionId="355ef6e9-ed4b-436a-abf1-b8043fc3a38e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f42256c-f495-ff50-743c-2d582deb12b3" executionId="106e6ba1-3b77-42f6-a3b1-4d125c96b95f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60ba6f03-0a08-54f1-e073-09a0aa3d13fe" executionId="4092f92a-e931-4984-bb53-ac666e395a6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="652536f2-1547-d1f2-6479-9e796445d2a6" executionId="fee79d5e-2a31-40f5-86f7-318c5582a7f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b43bc24-c25d-a421-9bda-93ea43cd1afd" executionId="66c35d22-caaf-492e-bce5-8297cef152c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7cab85fb-737b-76d5-d10d-2d77d938322b" executionId="236a8bae-fc97-41e6-a132-268b6d06052c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a2cf896-3aa4-c4f3-f076-1d30499b44d0" executionId="604d439e-1f77-487f-b156-fcb443ac8deb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ce18471-95b5-e985-01e9-6acec7ef9ef9" executionId="2fe63356-670a-41a0-b284-f01e573155ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1e33a82-7d06-7dc1-c47b-a3c1b160ab66" executionId="7d42ae55-8baa-4582-bb34-381080509b05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8f72322-0320-9ea7-908f-b82c8f9286d9" executionId="4344d25f-163f-4797-b389-34503dff02eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab6bc88a-5dd8-7e78-b9e4-a35e56c39a9f" executionId="98e2190a-bc17-4d36-9a4b-9434d6f29d40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ccbc53bf-4918-2d9c-deb7-c7d41ee4b9f3" executionId="75092c83-b7be-418f-a1ab-dd7dba4ff72b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf23e9dd-309e-92fe-c3c9-c080354d22b2" executionId="66990227-abdd-41f3-acd6-c36887d8b77f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4e7bed6-6fff-dd03-b020-b5e5d49795b1" executionId="52ebfef9-cc96-4fb5-a6e0-cf169bbe23e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e550d784-9477-315b-5b2a-a50f87ea5b93" executionId="cba507e2-39dd-4314-80fe-95af1b45f2b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6e26bed-50e2-cd0f-6f38-0db97e23cac4" executionId="11ca52e7-6d59-440b-b33e-2a6ae2240e8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef832253-a6a5-308d-4448-99447b717871" executionId="e46f825a-9f98-4a0e-8e50-0bbc276c0770" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f57e65be-94e7-0b53-634c-d6035e3fc71c" executionId="46ddec1a-bbca-4ea7-87c5-0853f3e828bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c6b44ea2-3d62-42eb-9c24-73840dc44198" testId="079a6416-71d2-4ac9-d1fd-5e030811a3aa" testName="SiDosDeSusLadosSonDiferentes" computerName="clL04A-9" duration="00:00:00.0634770" startTime="2013-12-04T11:50:58.4375000+01:00" endTime="2013-12-04T11:50:58.7656250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6b44ea2-3d62-42eb-9c24-73840dc44198">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado:1, 2, 2
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLado(1, 2, 2) (0,0s)
+Then me devuelve el tipo isorceles
+-&gt; done: Triangle_DetectorSteps.ThenMeDevuelveElTipoIsorceles() (0,0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d2f85cbe-65a9-4030-927f-5c0d9a90a81d" testId="0b92605c-28a2-2e0e-f941-64236c63aa4a" testName="Prueba_EsTriangulo6" computerName="clL04A-9" duration="00:00:00.0002642" startTime="2013-12-04T11:50:58.7656250+01:00" endTime="2013-12-04T11:50:58.7656250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2f85cbe-65a9-4030-927f-5c0d9a90a81d">
+    </UnitTestResult>
+    <UnitTestResult executionId="fffc45d8-bdd4-4b9d-8776-5071ff5cdff2" testId="0df197d2-a3f6-3d0b-b86d-a8cf76a266d0" testName="SiSoloDosLadosSonNegativos" computerName="clL04A-9" duration="00:00:00.0198134" startTime="2013-12-04T11:50:58.7656250+01:00" endTime="2013-12-04T11:50:58.7968750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fffc45d8-bdd4-4b9d-8776-5071ff5cdff2">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado:-1, 1, -1
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLado(-1, 1, -1) (0,0s)
+Then me devuelve una excepcion de argumento
+-&gt; error: La clave proporcionada no se encontró en el diccionario.</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Triangle_DetectorFeature.SiSoloDosLadosSonNegativos produjo la excepción: 
+System.Collections.Generic.KeyNotFoundException: La clave proporcionada no se encontró en el diccionario.</Message>
+          <StackTrace>    en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en ProyectoDePrueba.Triangle_DetectorSteps.ThenMeDevuelveUnaExcepcionDeArgumento() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_DetectorSteps.cs:línea 126
+   en lambda_method(Closure , IContextManager )
+   en TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en ProyectoDePrueba.Triangle_DetectorFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature.cs:línea 0
+   en ProyectoDePrueba.Triangle_DetectorFeature.SiSoloDosLadosSonNegativos() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature:línea 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4f721df5-6215-49cb-83a1-713fcf98ecbf" testId="0ee955cb-e569-7bbe-d0ca-defed9f3466f" testName="SiDosLadosSonNegativos" computerName="clL04A-9" duration="00:00:00.0016759" startTime="2013-12-04T11:50:58.7968750+01:00" endTime="2013-12-04T11:50:58.7968750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f721df5-6215-49cb-83a1-713fcf98ecbf">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado:1, -1, -1
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLado(1, -1, -1) (0,0s)
+Then me devuelve una excepcion de argumento
+-&gt; error: La clave proporcionada no se encontró en el diccionario.</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Triangle_DetectorFeature.SiDosLadosSonNegativos produjo la excepción: 
+System.Collections.Generic.KeyNotFoundException: La clave proporcionada no se encontró en el diccionario.</Message>
+          <StackTrace>    en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en ProyectoDePrueba.Triangle_DetectorSteps.ThenMeDevuelveUnaExcepcionDeArgumento() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_DetectorSteps.cs:línea 126
+   en lambda_method(Closure , IContextManager )
+   en TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en ProyectoDePrueba.Triangle_DetectorFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature.cs:línea 0
+   en ProyectoDePrueba.Triangle_DetectorFeature.SiDosLadosSonNegativos() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature:línea 36
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="801fcb58-61ca-47e9-9ecc-37af872ed3a0" testId="10208aa5-00d8-d3ff-2c98-429f9be55ef4" testName="SiLosLadosSonDiferentes" computerName="clL04A-9" duration="00:00:00.0008612" startTime="2013-12-04T11:50:58.8125000+01:00" endTime="2013-12-04T11:50:58.8125000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="801fcb58-61ca-47e9-9ecc-37af872ed3a0">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado:1, 2, 3
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLado(1, 2, 3) (0,0s)
+Then me devuelve el tipo escaleno
+-&gt; done: Triangle_DetectorSteps.ThenMeDevuelveElTipoEscaleno() (0,0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="35214adf-aed8-43e4-b146-3f18ff2f555c" testId="10a35410-3079-961b-5083-ed9ef4936f5f" testName="SiLosLadosSonIguales" computerName="clL04A-9" duration="00:00:00.0008556" startTime="2013-12-04T11:50:58.8125000+01:00" endTime="2013-12-04T11:50:58.8125000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35214adf-aed8-43e4-b146-3f18ff2f555c">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado:1, 1, 1
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLado(1, 1, 1) (0,0s)
+Then me devuelve el tipo equilatero
+-&gt; done: Triangle_DetectorSteps.ThenMeDevuelveElTipoEquilatero() (0,0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2852d87e-6d99-4079-bcc6-dec8582ef77e" testId="1857a141-fc60-2354-3193-9e8d48781fa3" testName="Prueba_EsTriangulo5" computerName="clL04A-9" duration="00:00:00.0001922" startTime="2013-12-04T11:50:58.8125000+01:00" endTime="2013-12-04T11:50:58.8281250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2852d87e-6d99-4079-bcc6-dec8582ef77e">
+    </UnitTestResult>
+    <UnitTestResult executionId="24261b96-3c48-43f9-8503-959e8829ed4b" testId="2b751b65-8961-5bac-8043-2e6e6adf1404" testName="Prueba_EsTriangulo16" computerName="clL04A-9" duration="00:00:00.0106094" startTime="2013-12-04T11:50:58.8281250+01:00" endTime="2013-12-04T11:50:58.8437500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24261b96-3c48-43f9-8503-959e8829ed4b">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo16 inició la excepción System.Exception, pero se esperaba la excepción System.ArgumentException. Mensaje de la excepción: System.Exception: No es triangulo</Message>
+          <StackTrace>    en TriangleDetector.TriangleValidator.EsTriangulo(Int32 lado1, Int32 lado2, Int32 lado3)
+   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo16() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 285
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c6feb9e9-1529-4602-a2a0-a5b72d39c5aa" testId="2eadf1ee-cde2-e639-e9a8-0e1bc8aa5953" testName="Prueba_EsTriangulo18" computerName="clL04A-9" duration="00:00:00.0010892" startTime="2013-12-04T11:50:58.8437500+01:00" endTime="2013-12-04T11:50:58.8437500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6feb9e9-1529-4602-a2a0-a5b72d39c5aa">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo18 inició la excepción System.Exception, pero se esperaba la excepción System.ArgumentException. Mensaje de la excepción: System.Exception: No es triangulo</Message>
+          <StackTrace>    en TriangleDetector.TriangleValidator.EsTriangulo(Int32 lado1, Int32 lado2, Int32 lado3)
+   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo18() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 338
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0c0d0820-6130-4f01-8ba0-d4338f6fcdbe" testId="327fdb4f-3500-3bd9-5e88-dcecc48fac8b" testName="SiSegundoLadosSonCero" computerName="clL04A-9" duration="00:00:00.0016985" startTime="2013-12-04T11:50:58.8437500+01:00" endTime="2013-12-04T11:50:58.8593750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c0d0820-6130-4f01-8ba0-d4338f6fcdbe">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado:1, 0, 1
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLado(1, 0, 1) (0,0s)
+Then me devuelve una excepcion de argumento
+-&gt; error: La clave proporcionada no se encontró en el diccionario.</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Triangle_DetectorFeature.SiSegundoLadosSonCero produjo la excepción: 
+System.Collections.Generic.KeyNotFoundException: La clave proporcionada no se encontró en el diccionario.</Message>
+          <StackTrace>    en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en ProyectoDePrueba.Triangle_DetectorSteps.ThenMeDevuelveUnaExcepcionDeArgumento() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_DetectorSteps.cs:línea 126
+   en lambda_method(Closure , IContextManager )
+   en TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en ProyectoDePrueba.Triangle_DetectorFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature.cs:línea 0
+   en ProyectoDePrueba.Triangle_DetectorFeature.SiSegundoLadosSonCero() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature:línea 57
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5539ad88-fafa-4160-a8b6-8c4d6d7b488c" testId="48f013ed-83ed-7a03-d949-9633da4c2f1f" testName="Prueba_EsTriangulo13" computerName="clL04A-9" duration="00:00:00.0010587" startTime="2013-12-04T11:50:58.8593750+01:00" endTime="2013-12-04T11:50:58.8593750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5539ad88-fafa-4160-a8b6-8c4d6d7b488c">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo13 inició la excepción System.Exception, pero se esperaba la excepción System.ArgumentException. Mensaje de la excepción: System.Exception: No es triangulo</Message>
+          <StackTrace>    en TriangleDetector.TriangleValidator.EsTriangulo(Int32 lado1, Int32 lado2, Int32 lado3)
+   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo13() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 207
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="355ef6e9-ed4b-436a-abf1-b8043fc3a38e" testId="5f4098b0-ae70-0c38-73d5-3680aa6f5adc" testName="SiPrimerLadosSonCero" computerName="clL04A-9" duration="00:00:00.0015697" startTime="2013-12-04T11:50:58.8593750+01:00" endTime="2013-12-04T11:50:58.8593750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="355ef6e9-ed4b-436a-abf1-b8043fc3a38e">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado:0, 1, 1
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLado(0, 1, 1) (0,0s)
+Then me devuelve una excepcion de argumento
+-&gt; error: La clave proporcionada no se encontró en el diccionario.</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Triangle_DetectorFeature.SiPrimerLadosSonCero produjo la excepción: 
+System.Collections.Generic.KeyNotFoundException: La clave proporcionada no se encontró en el diccionario.</Message>
+          <StackTrace>    en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en ProyectoDePrueba.Triangle_DetectorSteps.ThenMeDevuelveUnaExcepcionDeArgumento() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_DetectorSteps.cs:línea 126
+   en lambda_method(Closure , IContextManager )
+   en TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en ProyectoDePrueba.Triangle_DetectorFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature.cs:línea 0
+   en ProyectoDePrueba.Triangle_DetectorFeature.SiPrimerLadosSonCero() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature:línea 52
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="106e6ba1-3b77-42f6-a3b1-4d125c96b95f" testId="5f42256c-f495-ff50-743c-2d582deb12b3" testName="SiTerceroLadosSonCero" computerName="clL04A-9" duration="00:00:00.0015666" startTime="2013-12-04T11:50:58.8593750+01:00" endTime="2013-12-04T11:50:58.8750000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="106e6ba1-3b77-42f6-a3b1-4d125c96b95f">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado:1, 1, 0
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLado(1, 1, 0) (0,0s)
+Then me devuelve una excepcion de argumento
+-&gt; error: La clave proporcionada no se encontró en el diccionario.</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Triangle_DetectorFeature.SiTerceroLadosSonCero produjo la excepción: 
+System.Collections.Generic.KeyNotFoundException: La clave proporcionada no se encontró en el diccionario.</Message>
+          <StackTrace>    en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en ProyectoDePrueba.Triangle_DetectorSteps.ThenMeDevuelveUnaExcepcionDeArgumento() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_DetectorSteps.cs:línea 126
+   en lambda_method(Closure , IContextManager )
+   en TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en ProyectoDePrueba.Triangle_DetectorFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature.cs:línea 0
+   en ProyectoDePrueba.Triangle_DetectorFeature.SiTerceroLadosSonCero() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature:línea 62
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4092f92a-e931-4984-bb53-ac666e395a6c" testId="60ba6f03-0a08-54f1-e073-09a0aa3d13fe" testName="SiLosLadosSonCero" computerName="clL04A-9" duration="00:00:00.0016186" startTime="2013-12-04T11:50:58.8750000+01:00" endTime="2013-12-04T11:50:58.8750000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4092f92a-e931-4984-bb53-ac666e395a6c">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado:0, 0, 0
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLado(0, 0, 0) (0,0s)
+Then me devuelve una excepcion de argumento
+-&gt; error: La clave proporcionada no se encontró en el diccionario.</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Triangle_DetectorFeature.SiLosLadosSonCero produjo la excepción: 
+System.Collections.Generic.KeyNotFoundException: La clave proporcionada no se encontró en el diccionario.</Message>
+          <StackTrace>    en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en ProyectoDePrueba.Triangle_DetectorSteps.ThenMeDevuelveUnaExcepcionDeArgumento() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_DetectorSteps.cs:línea 126
+   en lambda_method(Closure , IContextManager )
+   en TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en ProyectoDePrueba.Triangle_DetectorFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature.cs:línea 0
+   en ProyectoDePrueba.Triangle_DetectorFeature.SiLosLadosSonCero() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature:línea 47
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fee79d5e-2a31-40f5-86f7-318c5582a7f9" testId="652536f2-1547-d1f2-6479-9e796445d2a6" testName="LadosInconclusosTresLetras" computerName="clL04A-9" duration="00:00:00.0021284" startTime="2013-12-04T11:50:58.8750000+01:00" endTime="2013-12-04T11:50:58.8750000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fee79d5e-2a31-40f5-86f7-318c5582a7f9">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado letra:a, b, c
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLadoLetraABC() (0,0s)
+Then me devuelve una excepcion de argumento
+-&gt; error: La clave proporcionada no se encontró en el diccionario.</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Triangle_DetectorFeature.LadosInconclusosTresLetras produjo la excepción: 
+System.Collections.Generic.KeyNotFoundException: La clave proporcionada no se encontró en el diccionario.</Message>
+          <StackTrace>    en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en ProyectoDePrueba.Triangle_DetectorSteps.ThenMeDevuelveUnaExcepcionDeArgumento() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_DetectorSteps.cs:línea 126
+   en lambda_method(Closure , IContextManager )
+   en TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en ProyectoDePrueba.Triangle_DetectorFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature.cs:línea 0
+   en ProyectoDePrueba.Triangle_DetectorFeature.LadosInconclusosTresLetras() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature:línea 82
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="66c35d22-caaf-492e-bce5-8297cef152c6" testId="7b43bc24-c25d-a421-9bda-93ea43cd1afd" testName="Prueba_EsTriangulo10" computerName="clL04A-9" duration="00:00:00.0011568" startTime="2013-12-04T11:50:58.8906250+01:00" endTime="2013-12-04T11:50:58.8906250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66c35d22-caaf-492e-bce5-8297cef152c6">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo10 inició la excepción System.Exception, pero se esperaba la excepción System.ArgumentException. Mensaje de la excepción: System.Exception: No es triangulo</Message>
+          <StackTrace>    en TriangleDetector.TriangleValidator.EsTriangulo(Int32 lado1, Int32 lado2, Int32 lado3)
+   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo10() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 127
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="236a8bae-fc97-41e6-a132-268b6d06052c" testId="7cab85fb-737b-76d5-d10d-2d77d938322b" testName="LadosInconclusos2Letras" computerName="clL04A-9" duration="00:00:00.0025690" startTime="2013-12-04T11:50:58.9062500+01:00" endTime="2013-12-04T11:50:58.9062500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="236a8bae-fc97-41e6-a132-268b6d06052c">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado letra:a, a, 2
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLadoLetraAA(2) (0,0s)
+Then me devuelve una excepcion de argumento
+-&gt; error: La clave proporcionada no se encontró en el diccionario.</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Triangle_DetectorFeature.LadosInconclusos2Letras produjo la excepción: 
+System.Collections.Generic.KeyNotFoundException: La clave proporcionada no se encontró en el diccionario.</Message>
+          <StackTrace>    en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en ProyectoDePrueba.Triangle_DetectorSteps.ThenMeDevuelveUnaExcepcionDeArgumento() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_DetectorSteps.cs:línea 126
+   en lambda_method(Closure , IContextManager )
+   en TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en ProyectoDePrueba.Triangle_DetectorFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature.cs:línea 0
+   en ProyectoDePrueba.Triangle_DetectorFeature.LadosInconclusos2Letras() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature:línea 72
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="604d439e-1f77-487f-b156-fcb443ac8deb" testId="9a2cf896-3aa4-c4f3-f076-1d30499b44d0" testName="LadosInconclusos3LetrasIguales" computerName="clL04A-9" duration="00:00:00.0023589" startTime="2013-12-04T11:50:58.9062500+01:00" endTime="2013-12-04T11:50:58.9218750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="604d439e-1f77-487f-b156-fcb443ac8deb">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado letra:a, a, a
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLadoLetraAAA() (0,0s)
+Then me devuelve una excepcion de argumento
+-&gt; error: La clave proporcionada no se encontró en el diccionario.</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Triangle_DetectorFeature.LadosInconclusos3LetrasIguales produjo la excepción: 
+System.Collections.Generic.KeyNotFoundException: La clave proporcionada no se encontró en el diccionario.</Message>
+          <StackTrace>    en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en ProyectoDePrueba.Triangle_DetectorSteps.ThenMeDevuelveUnaExcepcionDeArgumento() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_DetectorSteps.cs:línea 126
+   en lambda_method(Closure , IContextManager )
+   en TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en ProyectoDePrueba.Triangle_DetectorFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature.cs:línea 0
+   en ProyectoDePrueba.Triangle_DetectorFeature.LadosInconclusos3LetrasIguales() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature:línea 92
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2fe63356-670a-41a0-b284-f01e573155ba" testId="9ce18471-95b5-e985-01e9-6acec7ef9ef9" testName="LadosInconclusos" computerName="clL04A-9" duration="00:00:00.0016264" startTime="2013-12-04T11:50:58.9218750+01:00" endTime="2013-12-04T11:50:58.9218750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fe63356-670a-41a0-b284-f01e573155ba">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado:7, 1, 2
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLado(7, 1, 2) (0,0s)
+Then me devuelve una excepcion de argumento
+-&gt; error: La clave proporcionada no se encontró en el diccionario.</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Triangle_DetectorFeature.LadosInconclusos produjo la excepción: 
+System.Collections.Generic.KeyNotFoundException: La clave proporcionada no se encontró en el diccionario.</Message>
+          <StackTrace>    en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en ProyectoDePrueba.Triangle_DetectorSteps.ThenMeDevuelveUnaExcepcionDeArgumento() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_DetectorSteps.cs:línea 126
+   en lambda_method(Closure , IContextManager )
+   en TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en ProyectoDePrueba.Triangle_DetectorFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature.cs:línea 0
+   en ProyectoDePrueba.Triangle_DetectorFeature.LadosInconclusos() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature:línea 67
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7d42ae55-8baa-4582-bb34-381080509b05" testId="a1e33a82-7d06-7dc1-c47b-a3c1b160ab66" testName="LadosInconclusosOtras2Letras" computerName="clL04A-9" duration="00:00:00.0022293" startTime="2013-12-04T11:50:58.9218750+01:00" endTime="2013-12-04T11:50:58.9375000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d42ae55-8baa-4582-bb34-381080509b05">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado letra:b, a, 2
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLadoLetraBA(2) (0,0s)
+Then me devuelve una excepcion de argumento
+-&gt; error: La clave proporcionada no se encontró en el diccionario.</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Triangle_DetectorFeature.LadosInconclusosOtras2Letras produjo la excepción: 
+System.Collections.Generic.KeyNotFoundException: La clave proporcionada no se encontró en el diccionario.</Message>
+          <StackTrace>    en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en ProyectoDePrueba.Triangle_DetectorSteps.ThenMeDevuelveUnaExcepcionDeArgumento() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_DetectorSteps.cs:línea 126
+   en lambda_method(Closure , IContextManager )
+   en TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en ProyectoDePrueba.Triangle_DetectorFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature.cs:línea 0
+   en ProyectoDePrueba.Triangle_DetectorFeature.LadosInconclusosOtras2Letras() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature:línea 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4344d25f-163f-4797-b389-34503dff02eb" testId="a8f72322-0320-9ea7-908f-b82c8f9286d9" testName="SiTenemosDosLadosSonNegativos" computerName="clL04A-9" duration="00:00:00.0016119" startTime="2013-12-04T11:50:58.9375000+01:00" endTime="2013-12-04T11:50:58.9375000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4344d25f-163f-4797-b389-34503dff02eb">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado:-1, -1, 1
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLado(-1, -1, 1) (0,0s)
+Then me devuelve una excepcion de argumento
+-&gt; error: La clave proporcionada no se encontró en el diccionario.</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Triangle_DetectorFeature.SiTenemosDosLadosSonNegativos produjo la excepción: 
+System.Collections.Generic.KeyNotFoundException: La clave proporcionada no se encontró en el diccionario.</Message>
+          <StackTrace>    en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en ProyectoDePrueba.Triangle_DetectorSteps.ThenMeDevuelveUnaExcepcionDeArgumento() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_DetectorSteps.cs:línea 126
+   en lambda_method(Closure , IContextManager )
+   en TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en ProyectoDePrueba.Triangle_DetectorFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature.cs:línea 0
+   en ProyectoDePrueba.Triangle_DetectorFeature.SiTenemosDosLadosSonNegativos() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature:línea 41
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="98e2190a-bc17-4d36-9a4b-9434d6f29d40" testId="ab6bc88a-5dd8-7e78-b9e4-a35e56c39a9f" testName="LadosInconclusosOtras3Letras" computerName="clL04A-9" duration="00:00:00.0022586" startTime="2013-12-04T11:50:58.9375000+01:00" endTime="2013-12-04T11:50:58.9375000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98e2190a-bc17-4d36-9a4b-9434d6f29d40">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado letra:a, a, b
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLadoLetraAAB() (0,0s)
+Then me devuelve una excepcion de argumento
+-&gt; error: La clave proporcionada no se encontró en el diccionario.</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Triangle_DetectorFeature.LadosInconclusosOtras3Letras produjo la excepción: 
+System.Collections.Generic.KeyNotFoundException: La clave proporcionada no se encontró en el diccionario.</Message>
+          <StackTrace>    en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en ProyectoDePrueba.Triangle_DetectorSteps.ThenMeDevuelveUnaExcepcionDeArgumento() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_DetectorSteps.cs:línea 126
+   en lambda_method(Closure , IContextManager )
+   en TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en ProyectoDePrueba.Triangle_DetectorFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature.cs:línea 0
+   en ProyectoDePrueba.Triangle_DetectorFeature.LadosInconclusosOtras3Letras() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature:línea 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="75092c83-b7be-418f-a1ab-dd7dba4ff72b" testId="ccbc53bf-4918-2d9c-deb7-c7d41ee4b9f3" testName="Prueba_EsTriangulo17" computerName="clL04A-9" duration="00:00:00.0011166" startTime="2013-12-04T11:50:58.9531250+01:00" endTime="2013-12-04T11:50:58.9531250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75092c83-b7be-418f-a1ab-dd7dba4ff72b">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo17 inició la excepción System.Exception, pero se esperaba la excepción System.ArgumentException. Mensaje de la excepción: System.Exception: No es triangulo</Message>
+          <StackTrace>    en TriangleDetector.TriangleValidator.EsTriangulo(Int32 lado1, Int32 lado2, Int32 lado3)
+   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo17() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 311
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="66990227-abdd-41f3-acd6-c36887d8b77f" testId="cf23e9dd-309e-92fe-c3c9-c080354d22b2" testName="Prueba_EsTriangulo4" computerName="clL04A-9" duration="00:00:00.0002058" startTime="2013-12-04T11:50:58.9531250+01:00" endTime="2013-12-04T11:50:58.9531250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66990227-abdd-41f3-acd6-c36887d8b77f">
+    </UnitTestResult>
+    <UnitTestResult executionId="52ebfef9-cc96-4fb5-a6e0-cf169bbe23e5" testId="e4e7bed6-6fff-dd03-b020-b5e5d49795b1" testName="SiLosLadosSonNegativos" computerName="clL04A-9" duration="00:00:00.0016767" startTime="2013-12-04T11:50:58.9531250+01:00" endTime="2013-12-04T11:50:58.9687500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52ebfef9-cc96-4fb5-a6e0-cf169bbe23e5">
+      <Output>
+        <StdOut>Given tengo validador de triangulos
+-&gt; done: Triangle_DetectorSteps.GivenTengoValidadorDeTriangulos() (0,0s)
+When Compruebo el tipo de triangulo de lado:-1, -1, -1
+-&gt; done: Triangle_DetectorSteps.WhenComprueboElTipoDeTrianguloDeLado(-1, -1, -1) (0,0s)
+Then me devuelve una excepcion de argumento
+-&gt; error: La clave proporcionada no se encontró en el diccionario.</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Triangle_DetectorFeature.SiLosLadosSonNegativos produjo la excepción: 
+System.Collections.Generic.KeyNotFoundException: La clave proporcionada no se encontró en el diccionario.</Message>
+          <StackTrace>    en System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   en ProyectoDePrueba.Triangle_DetectorSteps.ThenMeDevuelveUnaExcepcionDeArgumento() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_DetectorSteps.cs:línea 126
+   en lambda_method(Closure , IContextManager )
+   en TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(StepInstance stepInstance)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en ProyectoDePrueba.Triangle_DetectorFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature.cs:línea 0
+   en ProyectoDePrueba.Triangle_DetectorFeature.SiLosLadosSonNegativos() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Triangle_detector.feature:línea 25
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cba507e2-39dd-4314-80fe-95af1b45f2b5" testId="e550d784-9477-315b-5b2a-a50f87ea5b93" testName="Prueba_EsTriangulo11" computerName="clL04A-9" duration="00:00:00.0008126" startTime="2013-12-04T11:50:58.9687500+01:00" endTime="2013-12-04T11:50:58.9687500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cba507e2-39dd-4314-80fe-95af1b45f2b5">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo11 no inició la excepción esperada System.ArgumentException.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="11ca52e7-6d59-440b-b33e-2a6ae2240e8e" testId="e6e26bed-50e2-cd0f-6f38-0db97e23cac4" testName="Prueba_EsTriangulo12" computerName="clL04A-9" duration="00:00:00.0011766" startTime="2013-12-04T11:50:58.9687500+01:00" endTime="2013-12-04T11:50:58.9843750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11ca52e7-6d59-440b-b33e-2a6ae2240e8e">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo12 inició la excepción System.Exception, pero se esperaba la excepción System.ArgumentException. Mensaje de la excepción: System.Exception: No es triangulo</Message>
+          <StackTrace>    en TriangleDetector.TriangleValidator.EsTriangulo(Int32 lado1, Int32 lado2, Int32 lado3)
+   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo12() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 181
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e46f825a-9f98-4a0e-8e50-0bbc276c0770" testId="ef832253-a6a5-308d-4448-99447b717871" testName="Prueba_EsTriangulo14" computerName="clL04A-9" duration="00:00:00.0012043" startTime="2013-12-04T11:50:58.9843750+01:00" endTime="2013-12-04T11:50:58.9843750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e46f825a-9f98-4a0e-8e50-0bbc276c0770">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo14 inició la excepción System.Exception, pero se esperaba la excepción System.ArgumentException. Mensaje de la excepción: System.Exception: No es triangulo</Message>
+          <StackTrace>    en TriangleDetector.TriangleValidator.EsTriangulo(Int32 lado1, Int32 lado2, Int32 lado3)
+   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo14() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 233
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="46ddec1a-bbca-4ea7-87c5-0853f3e828bf" testId="f57e65be-94e7-0b53-634c-d6035e3fc71c" testName="Prueba_EsTriangulo15" computerName="clL04A-9" duration="00:00:00.0010884" startTime="2013-12-04T11:50:58.9843750+01:00" endTime="2013-12-04T11:50:59.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46ddec1a-bbca-4ea7-87c5-0853f3e828bf">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo15 inició la excepción System.Exception, pero se esperaba la excepción System.ArgumentException. Mensaje de la excepción: System.Exception: No es triangulo</Message>
+          <StackTrace>    en TriangleDetector.TriangleValidator.EsTriangulo(Int32 lado1, Int32 lado2, Int32 lado3)
+   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo15() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 259
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

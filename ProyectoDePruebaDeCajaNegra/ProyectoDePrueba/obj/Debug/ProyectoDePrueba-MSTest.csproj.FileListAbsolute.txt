@@ -1,0 +1,13 @@
+G:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\obj\Debug\ProyectoDePrueba-MSTest.csprojResolveAssemblyReference.cache
+G:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\obj\Debug\ProyectoDePrueba.dll
+G:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\obj\Debug\ProyectoDePrueba.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\obj\Debug\ResolveAssemblyReference.cache
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\obj\Debug\ProyectoDePrueba.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\obj\Debug\ProyectoDePrueba.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\bin\Debug\ProyectoDePrueba.dll.config
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\bin\Debug\ProyectoDePrueba.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\bin\Debug\ProyectoDePrueba.pdb
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\bin\Debug\nunit.framework.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\bin\Debug\TechTalk.SpecFlow.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\bin\Debug\TriangleDetector.dll
+E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\ProyectoDePruebaDeCajaNegra\ProyectoDePrueba\bin\Debug\nunit.framework.xml

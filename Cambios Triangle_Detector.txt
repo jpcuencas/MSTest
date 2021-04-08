@@ -1,0 +1,25 @@
+           
+TriangleDetector.TriangleValidator triangulo;
+        String resultadoActual;
+
+ triangulo = new TriangleDetector.TriangleValidator();
+
+
+
+try
+            {
+                resultadoActual = triangulo.EsTriangulo(p0, p1, p2);
+            }
+            catch (Exception ex)
+            {
+                ScenarioContext.Current.Add("Exception_Triangle", ex);
+            }
+
+Assert.AreEqual(TriangleDetector.TriangleValidator.EQUILATERO, resultadoActual);
+
+
+
+
+ Exception excepcion = (Exception)ScenarioContext.Current["Exception_triangle"];
+            Assert.IsNotNull(excepcion);
+            Assert.AreEqual("No es triangulo",excepcion.Message);

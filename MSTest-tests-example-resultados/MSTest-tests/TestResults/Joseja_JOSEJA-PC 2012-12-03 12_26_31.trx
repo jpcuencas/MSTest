@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2761fde7-50c0-4246-9822-ec9c24c4181e" name="Joseja@JOSEJA-PC 2012-12-03 12:26:31" runUser="Joseja-PC\Joseja" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="79033013-3fa5-43d1-b157-ecaec7a63c00">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Joseja_JOSEJA-PC 2012-12-03 12_26_31">
+      <DeploymentItem filename="C:\Users\Joseja\Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll" />
+      <DeploymentItem filename="C:\Users\Joseja\Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\MSTest-tests-example\bin\Debug\MSTest-tests-example.dll" />
+      <DeploymentItem filename="C:\Users\Joseja\Dropbox\Master\2012-2013\Pruebas unitarias\MSTest-tests-example-resultados\MSTest-tests-example\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-12-03T12:26:31.3571696+01:00" queuing="2012-12-03T12:26:31.3689858+01:00" start="2012-12-03T12:26:31.4044344+01:00" finish="2012-12-03T12:26:32.5882028+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ImageManagement" storage="c:\users\joseja\dropbox\master\2012-2013\pruebas unitarias\mstest-tests-example-resultados\mstest-tests-example\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="bca4480f-b535-f2eb-22cf-546b94d38fd7">
+      <Description>ImageManagement</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="mytag" />
+      </TestCategory>
+      <Execution id="1533b286-50e1-4898-983f-474b1a835cc2" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>ImageManagement</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Joseja/Dropbox/Master/2012-2013/Pruebas unitarias/MSTest-tests-example-resultados/MSTest-tests-example/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.ImageManagementFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ImageManagement" />
+    </UnitTest>
+    <UnitTest name="LogonInfo" storage="c:\users\joseja\dropbox\master\2012-2013\pruebas unitarias\mstest-tests-example-resultados\mstest-tests-example\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="b728749b-0a3e-49e5-ca25-90aa1bebf2b1">
+      <Description>LogonInfo</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="mytag" />
+      </TestCategory>
+      <Execution id="a17c4ed6-54f8-4428-a25e-e4f2008aedf2" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LogonInfo</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Joseja/Dropbox/Master/2012-2013/Pruebas unitarias/MSTest-tests-example-resultados/MSTest-tests-example/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.LogonInfoFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogonInfo" />
+    </UnitTest>
+    <UnitTest name="GetImageForTimeOfDayTest_2Metodo" storage="c:\users\joseja\dropbox\master\2012-2013\pruebas unitarias\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="cbf4f7bb-712c-8412-028b-97b22c8be11b">
+      <Execution id="8ebedd5e-2c63-4914-955e-679a93f9b11d" />
+      <TestMethod codeBase="C:/Users/Joseja/Dropbox/Master/2012-2013/Pruebas unitarias/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetImageForTimeOfDayTest_2Metodo" />
+    </UnitTest>
+    <UnitTest name="GetImageForTimeOfDayTest" storage="c:\users\joseja\dropbox\master\2012-2013\pruebas unitarias\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="e345d26f-c145-058f-8f36-a824ab18e12e">
+      <Execution id="00536919-2807-47f5-ae77-1f919214064b" />
+      <TestMethod codeBase="C:/Users/Joseja/Dropbox/Master/2012-2013/Pruebas unitarias/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetImageForTimeOfDayTest" />
+    </UnitTest>
+    <UnitTest name="CustomReplaceTest" storage="c:\users\joseja\dropbox\master\2012-2013\pruebas unitarias\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="532852b3-9a5f-80c9-22c1-a7a66687eeb9">
+      <Execution id="913f5b67-9852-44be-8c15-254a269dd585" />
+      <TestMethod codeBase="C:/Users/Joseja/Dropbox/Master/2012-2013/Pruebas unitarias/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CustomReplacerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CustomReplaceTest" />
+    </UnitTest>
+    <UnitTest name="ReplaceSingleSentence" storage="c:\users\joseja\dropbox\master\2012-2013\pruebas unitarias\mstest-tests-example-resultados\mstest-tests-example\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="46733209-1240-2551-bc61-de52a217765d">
+      <Description>Replace single sentence</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="mytag" />
+      </TestCategory>
+      <Execution id="1a06793b-696e-4e29-b455-f2c8a6b3cabd" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Custom Replace</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="C:/Users/Joseja/Dropbox/Master/2012-2013/Pruebas unitarias/MSTest-tests-example-resultados/MSTest-tests-example/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.CustomReplaceFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReplaceSingleSentence" />
+    </UnitTest>
+    <UnitTest name="IsValidPasswordTest" storage="c:\users\joseja\dropbox\master\2012-2013\pruebas unitarias\mstest-tests-example-resultados\mstest-tests-example\testproject1\bin\debug\testproject1.dll" id="aa063b67-59cf-d993-101d-37aca83b2793">
+      <DeploymentItems>
+        <DeploymentItem filename="MSTest-tests-example.dll" />
+      </DeploymentItems>
+      <Execution id="1efed712-bb30-47ae-a387-85cb21e9f9f7" />
+      <TestMethod codeBase="C:/Users/Joseja/Dropbox/Master/2012-2013/Pruebas unitarias/MSTest-tests-example-resultados/MSTest-tests-example/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidPasswordTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="46733209-1240-2551-bc61-de52a217765d" executionId="1a06793b-696e-4e29-b455-f2c8a6b3cabd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="532852b3-9a5f-80c9-22c1-a7a66687eeb9" executionId="913f5b67-9852-44be-8c15-254a269dd585" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa063b67-59cf-d993-101d-37aca83b2793" executionId="1efed712-bb30-47ae-a387-85cb21e9f9f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b728749b-0a3e-49e5-ca25-90aa1bebf2b1" executionId="a17c4ed6-54f8-4428-a25e-e4f2008aedf2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bca4480f-b535-f2eb-22cf-546b94d38fd7" executionId="1533b286-50e1-4898-983f-474b1a835cc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbf4f7bb-712c-8412-028b-97b22c8be11b" executionId="8ebedd5e-2c63-4914-955e-679a93f9b11d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e345d26f-c145-058f-8f36-a824ab18e12e" executionId="00536919-2807-47f5-ae77-1f919214064b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1a06793b-696e-4e29-b455-f2c8a6b3cabd" testId="46733209-1240-2551-bc61-de52a217765d" testName="ReplaceSingleSentence" computerName="JOSEJA-PC" duration="00:00:00.0619398" startTime="2012-12-03T12:26:31.4141022+01:00" endTime="2012-12-03T12:26:31.7793302+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a06793b-696e-4e29-b455-f2c8a6b3cabd">
+      <Output>
+        <StdOut>Given a custom replace object
+-&gt; done: CustomReplaceSteps.GivenACustomReplaceObject() (0,0s)
+When replace the letter "e" in the text "Hello all, how are the test going?"
+-&gt; done: CustomReplaceSteps.WhenReplaceTheLetterInTheText("e", "Hello all, how ar...") (0,0s)
+Then the result should be "H1llo all, how ar2 th3 t4st going?"
+-&gt; done: CustomReplaceSteps.ThenTheResultShouldBe("H1llo all, how ar...") (0,0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="913f5b67-9852-44be-8c15-254a269dd585" testId="532852b3-9a5f-80c9-22c1-a7a66687eeb9" testName="CustomReplaceTest" computerName="JOSEJA-PC" duration="00:00:00.0141565" startTime="2012-12-03T12:26:31.7825528+01:00" endTime="2012-12-03T12:26:32.0070606+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="913f5b67-9852-44be-8c15-254a269dd585">
+    </UnitTestResult>
+    <UnitTestResult executionId="1efed712-bb30-47ae-a387-85cb21e9f9f7" testId="aa063b67-59cf-d993-101d-37aca83b2793" testName="IsValidPasswordTest" computerName="JOSEJA-PC" duration="00:00:00.0049317" startTime="2012-12-03T12:26:32.0113574+01:00" endTime="2012-12-03T12:26:32.0231736+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1efed712-bb30-47ae-a387-85cb21e9f9f7">
+    </UnitTestResult>
+    <UnitTestResult executionId="a17c4ed6-54f8-4428-a25e-e4f2008aedf2" testId="b728749b-0a3e-49e5-ca25-90aa1bebf2b1" testName="LogonInfo" computerName="JOSEJA-PC" duration="00:00:00.0057651" startTime="2012-12-03T12:26:32.0371382+01:00" endTime="2012-12-03T12:26:32.0532512+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a17c4ed6-54f8-4428-a25e-e4f2008aedf2">
+      <Output>
+        <StdOut>Given a PrivateType of LogonInfo
+-&gt; done: LogonInfoSteps.GivenAPrivateTypeOfLogonInfo() (0,0s)
+When I check the validity of the "1235Aa_4"
+-&gt; done: LogonInfoSteps.WhenICheckTheValidityOfThe("1235Aa_4") (0,0s)
+Then the result of validity should be true
+-&gt; done: LogonInfoSteps.ThenTheResultOfValidityShouldBeTrue(True) (0,0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1533b286-50e1-4898-983f-474b1a835cc2" testId="bca4480f-b535-f2eb-22cf-546b94d38fd7" testName="ImageManagement" computerName="JOSEJA-PC" duration="00:00:00.1706590" startTime="2012-12-03T12:26:32.0639932+01:00" endTime="2012-12-03T12:26:32.2627202+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1533b286-50e1-4898-983f-474b1a835cc2">
+      <Output>
+        <StdOut>Given a ImageManagement Mock
+-&gt; done: ImageManagementSteps.GivenAImageManagementMock() (0,0s)
+And setting up the retun value of GetHour method to 5
+-&gt; done: ImageManagementSteps.GivenSettingUpTheRetunValueOfGetHourMethodTo(5) (0,0s)
+When get the image for time of day
+-&gt; done: ImageManagementSteps.WhenGetTheImageForTimeOfDay() (0,1s)
+Then the result image should be "moon.jpg"
+-&gt; done: ImageManagementSteps.ThenTheResultImageShouldBe("moon.jpg") (0,0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8ebedd5e-2c63-4914-955e-679a93f9b11d" testId="cbf4f7bb-712c-8412-028b-97b22c8be11b" testName="GetImageForTimeOfDayTest_2Metodo" computerName="JOSEJA-PC" duration="00:00:00.1628745" startTime="2012-12-03T12:26:32.2756106+01:00" endTime="2012-12-03T12:26:32.4582246+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ebedd5e-2c63-4914-955e-679a93f9b11d">
+    </UnitTestResult>
+    <UnitTestResult executionId="00536919-2807-47f5-ae77-1f919214064b" testId="e345d26f-c145-058f-8f36-a824ab18e12e" testName="GetImageForTimeOfDayTest" computerName="JOSEJA-PC" duration="00:00:00.0206213" startTime="2012-12-03T12:26:32.4635956+01:00" endTime="2012-12-03T12:26:32.4936732+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00536919-2807-47f5-ae77-1f919214064b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

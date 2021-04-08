@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="85de0c46-9b44-4b09-a7a5-6f1a3e6c3c2c" name="EPS@clL26-14 2013-11-20 18:48:03" runUser="clL26-14\EPS" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="21b3f13a-1a3c-444b-811b-e3a6a1dbe648">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="EPS_clL26-14 2013-11-20 18_48_03">
+      <DeploymentItem filename="c:\documents and settings\eps\mis documentos\visual studio 2010\Projects\ProyectoDePrueba\ProyectoDePrueba\TriangleDetector.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-20T18:48:03.7113210+01:00" queuing="2013-11-20T18:48:04.5081960+01:00" start="2013-11-20T18:48:04.8050710+01:00" finish="2013-11-20T18:48:05.1956960+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Prueba_EsTriangulo10" storage="c:\documents and settings\eps\mis documentos\visual studio 2010\projects\proyectodeprueba\proyectodeprueba\bin\debug\proyectodeprueba.dll" id="7b43bc24-c25d-a421-9bda-93ea43cd1afd">
+      <Execution id="38f1520e-d0c9-4f79-9b5e-72d84ffb5a5a" />
+      <TestMethod codeBase="c:/documents and settings/eps/mis documentos/visual studio 2010/Projects/ProyectoDePrueba/ProyectoDePrueba/bin/Debug/ProyectoDePrueba.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProyectoDePrueba.Prueba_TriangleDetector, ProyectoDePrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Prueba_EsTriangulo10" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7b43bc24-c25d-a421-9bda-93ea43cd1afd" executionId="38f1520e-d0c9-4f79-9b5e-72d84ffb5a5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="38f1520e-d0c9-4f79-9b5e-72d84ffb5a5a" testId="7b43bc24-c25d-a421-9bda-93ea43cd1afd" testName="Prueba_EsTriangulo10" computerName="clL26-14" duration="00:00:00.0746030" startTime="2013-11-20T18:48:04.8050710+01:00" endTime="2013-11-20T18:48:05.1019460+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38f1520e-d0c9-4f79-9b5e-72d84ffb5a5a">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo10 inició la excepción System.Exception, pero se esperaba la excepción System.ArgumentException. Mensaje de la excepción: System.Exception: No es triangulo</Message>
+          <StackTrace>    en TriangleDetector.TriangleValidator.EsTriangulo(Int32 lado1, Int32 lado2, Int32 lado3)
+   en ProyectoDePrueba.Prueba_TriangleDetector.Prueba_EsTriangulo10() en c:\documents and settings\eps\mis documentos\visual studio 2010\Projects\ProyectoDePrueba\ProyectoDePrueba\Prueba_TriangleDetector.cs:línea 276
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

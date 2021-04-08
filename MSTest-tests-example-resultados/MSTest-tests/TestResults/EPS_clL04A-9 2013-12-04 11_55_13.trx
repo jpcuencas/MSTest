@@ -1,0 +1,2542 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b62b70dc-8ea8-4655-80be-0910ec4c76a7" name="EPS@clL04A-9 2013-12-04 11:55:13" runUser="clL04A-9\EPS" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="79033013-3fa5-43d1-b157-ecaec7a63c00">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="EPS_clL04A-9 2013-12-04 11_55_13">
+      <DeploymentItem filename="E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll" />
+      <DeploymentItem filename="E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-tests-example\bin\Debug\MSTest-tests-example.dll" />
+      <DeploymentItem filename="E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-12-04T11:55:13.7343750+01:00" queuing="2013-12-04T11:55:14.5625000+01:00" start="2013-12-04T11:55:14.6718750+01:00" finish="2013-12-04T11:55:16.2343750+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="58" executed="58" passed="23" error="0" failed="8" timeout="0" aborted="0" inconclusive="27" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetImageForTimeOfDayTest_2Metodo" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="cbf4f7bb-712c-8412-028b-97b22c8be11b">
+      <Execution id="4a5ee64f-f1f4-49b8-b762-ce62f477d9c4" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetImageForTimeOfDayTest_2Metodo" />
+    </UnitTest>
+    <UnitTest name="LogonInfo1" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="a0ba9160-44f5-0701-5b1a-7c91df1c5ba6">
+      <Description>LogonInfo1</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="mytag" />
+      </TestCategory>
+      <Execution id="e7c2ec9c-6a95-46dd-982b-22b58305c9a9" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LogonInfo</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.LogonInfoFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogonInfo1" />
+    </UnitTest>
+    <UnitTest name="ImageManagement6" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="740501cf-ca02-ba34-2515-e32ccf2f6c80">
+      <Description>ImageManagement6</Description>
+      <Execution id="ec6126d5-6afd-4f04-b126-c7eb462614ed" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>ImageManagement</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.ImageManagementFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ImageManagement6" />
+    </UnitTest>
+    <UnitTest name="LogonInfo5" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="cab26c98-2c7b-824a-dd39-cbd7905c7396">
+      <Description>LogonInfo5</Description>
+      <Execution id="5f6ecd07-70d2-4478-98c2-af02c74b1a82" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LogonInfo</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.LogonInfoFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogonInfo5" />
+    </UnitTest>
+    <UnitTest name="TestMethod8" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="d26dbcee-d022-ba55-7d86-5e2742496754">
+      <Execution id="40b27bd9-12c9-4a53-9245-fd58917d4b98" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod8" />
+    </UnitTest>
+    <UnitTest name="TestMethod12" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="08c2c459-99da-2426-16b9-dfe38f32fefc">
+      <Execution id="d4b27511-4296-4fda-91cf-be19e25a2c3f" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod12" />
+    </UnitTest>
+    <UnitTest name="LogonInfo9" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="62701fa3-d32d-4de4-9dc0-aac2416e8373">
+      <Description>LogonInfo9</Description>
+      <Execution id="7bc3445e-2521-4058-a0ae-9e96f2bf95e7" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LogonInfo</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.LogonInfoFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogonInfo9" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="a5e13db0-1126-bfdf-d69a-476b5fcf3fa8">
+      <Execution id="257bda2a-da6c-4768-bb28-b4761b8caee4" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="LogonInfo3" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="ce89ae1f-ab54-f1bb-d790-5935db4d70d9">
+      <Description>LogonInfo3</Description>
+      <Execution id="2fd6987a-0c38-4e8e-9ba2-4739bcb6413d" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LogonInfo</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.LogonInfoFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogonInfo3" />
+    </UnitTest>
+    <UnitTest name="ImageManagement2" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="03d4330a-9c71-012f-ea61-7d6168805f3e">
+      <Description>ImageManagement2</Description>
+      <Execution id="9545cd22-a6a2-4e4a-95b4-ed297f81c3c6" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>ImageManagement</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.ImageManagementFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ImageManagement2" />
+    </UnitTest>
+    <UnitTest name="TestMethod8" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="25794148-57f7-c8da-34da-bf4544c9b5fc">
+      <Execution id="9f38954c-b5f3-43e1-a5b8-abc4bf6a3773" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CustomReplacerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod8" />
+    </UnitTest>
+    <UnitTest name="TestMethod5" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="eeb3cc19-9e1b-7369-05f0-5b3e4c89f8e3">
+      <Execution id="1ee5b77b-20b6-4209-9cea-04866c8e25de" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod5" />
+    </UnitTest>
+    <UnitTest name="LogonInfo6" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="04411d8d-0666-9d8a-ff2f-1368222e9afc">
+      <Description>LogonInfo6</Description>
+      <Execution id="af3b46e5-96a1-4ebb-965c-d586ad28e4b2" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LogonInfo</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.LogonInfoFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogonInfo6" />
+    </UnitTest>
+    <UnitTest name="ReplaceSingleSentence3" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="1878b7f1-e451-7f08-3c16-9c5566399920">
+      <Description>Replace single sentence3</Description>
+      <Execution id="5005e8d9-05eb-436c-8dc5-030189acf7e8" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Custom Replace</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.CustomReplaceFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReplaceSingleSentence3" />
+    </UnitTest>
+    <UnitTest name="TestMethod7" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="dd068bd6-d48c-2459-efc0-399e70a5da76">
+      <Execution id="f7cfafe5-5b74-4f81-8ad7-312a2da1298d" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod7" />
+    </UnitTest>
+    <UnitTest name="LogonInfo10" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="8ec43435-a413-43c8-fa42-a53adebdfc79">
+      <Description>LogonInfo10</Description>
+      <Execution id="f9291f7e-a8e4-4e15-a1f3-ca2318675d89" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LogonInfo</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.LogonInfoFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogonInfo10" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="f54840ab-2ef2-5f6a-d73b-ecf26092fa27">
+      <Execution id="623a4eaa-30dd-45ca-b1c2-8693e35ac190" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="TestMethod6" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="ae0f3132-d634-9b3a-4dca-1df6c661ea7a">
+      <Execution id="a34d1244-badf-404b-8930-931348b77ac7" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod6" />
+    </UnitTest>
+    <UnitTest name="TestMethod3" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="bb64466a-8610-b48c-20bf-225bad77f307">
+      <Execution id="382f49ee-0be3-4bb6-881f-38b1bf333ca2" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="ReplaceSingleSentence2" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="a995cff9-003b-f42a-b2b1-b2b20edfb9a2">
+      <Description>Replace single sentence2</Description>
+      <Execution id="d916c680-61fd-455f-8b19-b224af7c1588" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Custom Replace</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.CustomReplaceFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReplaceSingleSentence2" />
+    </UnitTest>
+    <UnitTest name="TestMethod9" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="cb1d3294-6609-a568-821b-ab7e82ca3955">
+      <Execution id="5691a0fe-b3f3-42b4-a92b-5dd798c43cc8" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CustomReplacerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod9" />
+    </UnitTest>
+    <UnitTest name="ImageManagement5" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="ada1fecf-89e1-fdc8-8b45-27ba8b26f239">
+      <Description>ImageManagement5</Description>
+      <Execution id="a5b77b6f-24bd-4577-ad12-925e07493971" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>ImageManagement</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.ImageManagementFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ImageManagement5" />
+    </UnitTest>
+    <UnitTest name="ReplaceSingleSentence1" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="ee425cd1-a997-db40-1ba3-250bdc660662">
+      <Description>Replace single sentence1</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="mytag" />
+      </TestCategory>
+      <Execution id="cfa28973-58bb-4e0e-9ffc-332d00d6e853" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Custom Replace</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.CustomReplaceFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReplaceSingleSentence1" />
+    </UnitTest>
+    <UnitTest name="LogonInfo11" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="a5f73eab-3718-4b47-9f00-f8e74567ef93">
+      <Description>LogonInfo11</Description>
+      <Execution id="cd03f4de-760f-4499-9ca7-ac70ac394497" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LogonInfo</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.LogonInfoFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogonInfo11" />
+    </UnitTest>
+    <UnitTest name="ImageManagement1" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="e2d24678-2bac-74c5-d4ea-a3987aa6fe9a">
+      <Description>ImageManagement1</Description>
+      <TestCategory>
+        <TestCategoryItem TestCategory="mytag" />
+      </TestCategory>
+      <Execution id="1811c119-c080-4800-bf0e-afe2155dcd18" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>ImageManagement</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.ImageManagementFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ImageManagement1" />
+    </UnitTest>
+    <UnitTest name="ImageManagement3" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="b30f1474-a682-5b26-045f-10adb545a3d6">
+      <Description>ImageManagement3</Description>
+      <Execution id="12712313-b71d-4c1d-8112-61b30d9654f0" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>ImageManagement</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.ImageManagementFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ImageManagement3" />
+    </UnitTest>
+    <UnitTest name="TestMethod4" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="f2ad077d-8f48-8600-26e9-c3f00e9d5df7">
+      <Execution id="b0d5096f-3fc4-4c36-95e3-cacead49ffd2" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CustomReplacerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod4" />
+    </UnitTest>
+    <UnitTest name="LogonInfo12" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="75e5bf3f-5383-e270-d4cd-60b56f035f55">
+      <Description>LogonInfo12</Description>
+      <Execution id="7daa82ad-aebe-46e7-b401-70a36e32eb3d" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LogonInfo</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.LogonInfoFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogonInfo12" />
+    </UnitTest>
+    <UnitTest name="IsValidPasswordTest" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="aa063b67-59cf-d993-101d-37aca83b2793">
+      <DeploymentItems>
+        <DeploymentItem filename="MSTest-tests-example.dll" />
+      </DeploymentItems>
+      <Execution id="b2e6ddf6-5534-4a6b-b227-75e68a2e6810" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidPasswordTest" />
+    </UnitTest>
+    <UnitTest name="TestMethod4" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="f539b545-8bbf-7198-837a-1c7f9f096e3c">
+      <Execution id="8b8c46c1-1133-424c-9bf5-678962bad5d2" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod4" />
+    </UnitTest>
+    <UnitTest name="TestMethod9" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="9300c427-266b-ab2b-ffdd-6c2b30f5f4f8">
+      <Execution id="f80ba221-c498-4ce7-a6d8-063246409000" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod9" />
+    </UnitTest>
+    <UnitTest name="ReplaceSingleSentence5" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="065dd8ee-a3d6-df77-4485-3e34f4a7b1fe">
+      <Description>Replace single sentence5</Description>
+      <Execution id="95e84e25-c862-43ac-9f1e-bfe34d880481" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Custom Replace</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.CustomReplaceFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReplaceSingleSentence5" />
+    </UnitTest>
+    <UnitTest name="TestMethod5" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="72d78b3d-5c5f-0ed1-e227-f579e8983f31">
+      <Execution id="d5cabea2-151a-4bf6-8629-6f302f8f7241" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod5" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="f10e8f6c-34dd-38f8-0664-1d8d9ffcff6a">
+      <Execution id="29fde843-5683-4a13-a440-a2dc4811e0f0" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CustomReplacerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="ImageManagement4" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="f3230ba6-9d7b-5bfa-7848-63992de6283e">
+      <Description>ImageManagement4</Description>
+      <Execution id="e2034f57-545c-4f8d-b3f4-968461be8e52" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>ImageManagement</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.ImageManagementFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ImageManagement4" />
+    </UnitTest>
+    <UnitTest name="ReplaceSingleSentence6" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="66ee51ef-01ea-8ffd-1432-b804198b8ad2">
+      <Description>Replace single sentence6</Description>
+      <Execution id="1b89271c-2a3d-4348-a763-1535e5298e87" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Custom Replace</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.CustomReplaceFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReplaceSingleSentence6" />
+    </UnitTest>
+    <UnitTest name="LogonInfo4" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="06148110-f8be-0d73-b4f8-cbcb35474c8f">
+      <Description>LogonInfo4</Description>
+      <Execution id="a96d868d-b7f3-445c-84ed-e3880525c3d0" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LogonInfo</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.LogonInfoFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogonInfo4" />
+    </UnitTest>
+    <UnitTest name="LogonInfo14" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="d6fa3875-6de5-cd25-ec04-c4560f2b0335">
+      <Description>LogonInfo14</Description>
+      <Execution id="e5f3ed9b-23d9-4c11-9bdd-c7b59ac0bed9" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LogonInfo</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.LogonInfoFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogonInfo14" />
+    </UnitTest>
+    <UnitTest name="TestMethod5" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="608a9443-84b4-ed0a-59a9-d112de93f972">
+      <Execution id="d19c048c-77d1-45a4-a208-c5eeee6c7fa3" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CustomReplacerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod5" />
+    </UnitTest>
+    <UnitTest name="TestMethod4" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="ff7778d2-862f-023f-1871-922e164905cd">
+      <Execution id="250332d9-73d5-4b9a-a44a-b0881117588b" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod4" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="a4ef3750-3a62-edbb-01d3-23e65b8adda6">
+      <Execution id="752c8c54-ebb9-4a22-a65d-6122084ef648" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="LogonInfo7" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="d737ecf8-d6b9-c504-18b3-8fb5bce0aa0d">
+      <Description>LogonInfo7</Description>
+      <Execution id="8a3355de-47b1-43fa-a1d1-62a45646f221" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LogonInfo</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.LogonInfoFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogonInfo7" />
+    </UnitTest>
+    <UnitTest name="LogonInfo13" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="bfab3ca4-fd39-b34b-8b5d-a06536aa4c8d">
+      <Description>LogonInfo13</Description>
+      <Execution id="3a083cbd-fe31-42d2-9062-204527436fa0" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LogonInfo</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.LogonInfoFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogonInfo13" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="b5eb1d7c-1382-ab80-2cef-47c85b866844">
+      <Execution id="fc354bf1-f769-4fce-b151-37095a1f566a" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CustomReplacerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="446fd7d1-0a70-795e-8795-71ef466b91c9">
+      <Execution id="abf8e3dd-aea8-4b63-a74d-7a82c4d33da9" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod7" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="a250f225-510c-5573-9fb6-8fc1358b3b43">
+      <Execution id="66f5bf1f-b710-47ef-bcb0-0a76812d6623" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CustomReplacerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod7" />
+    </UnitTest>
+    <UnitTest name="TestMethod3" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="c0d4ea11-6c77-1de8-1eb1-f5900ce46d70">
+      <Execution id="3bab5c6c-d540-4fef-8591-890d015e9583" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CustomReplacerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="LogonInfo2" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="01dae737-7caa-c68c-020d-afa5da3ea534">
+      <Description>LogonInfo2</Description>
+      <Execution id="2611fb2b-2727-459c-802b-38f7924f289f" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LogonInfo</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.LogonInfoFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogonInfo2" />
+    </UnitTest>
+    <UnitTest name="TestMethod6" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="59bf0caa-ce35-9e3e-d6f7-fbf5ec602ce8">
+      <Execution id="ef654753-c4ff-438b-95c2-7cb6b1b25fca" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CustomReplacerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod6" />
+    </UnitTest>
+    <UnitTest name="ReplaceSingleSentence4" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="0142c4d6-f90a-f445-f3d0-d925434ed704">
+      <Description>Replace single sentence4</Description>
+      <Execution id="a4b2afcc-1206-4875-9c87-fa145913ac85" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>Custom Replace</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.CustomReplaceFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReplaceSingleSentence4" />
+    </UnitTest>
+    <UnitTest name="TestMethod3" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="455d249b-5923-1040-5712-f6160b6e4759">
+      <Execution id="83bea248-4344-4a71-ba34-42e3b7b632e4" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="TestMethod6" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="2ac10a6c-85d3-1bfc-2165-428cac040b31">
+      <Execution id="2dcdcc96-4369-43a5-a040-aabee04db92e" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod6" />
+    </UnitTest>
+    <UnitTest name="TestMethod10" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="c35ee338-e5ff-ec3d-2d1b-d8d5002e6cae">
+      <Execution id="8b026f5f-7371-41d3-8caf-da5dd750ce59" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod10" />
+    </UnitTest>
+    <UnitTest name="TestMethod13" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="b6e3040b-dc5d-0364-dd22-f7b512457430">
+      <Execution id="b0da6a5a-2d78-4d40-b725-d42ad2ea52bb" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod13" />
+    </UnitTest>
+    <UnitTest name="TestMethod11" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="9a16e8cc-28e4-4a01-a31d-24e25ea61493">
+      <Execution id="29e753a0-dac2-4ec8-8b4b-7304dba62b66" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LogonInfoTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod11" />
+    </UnitTest>
+    <UnitTest name="ImageManagement7" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="2dfe1bd7-08ca-ef98-c61d-100b154838f4">
+      <Description>ImageManagement7</Description>
+      <Execution id="e3e58a5b-6be2-4098-a58d-06c00b7923d6" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>ImageManagement</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.ImageManagementFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ImageManagement7" />
+    </UnitTest>
+    <UnitTest name="LogonInfo8" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\mstest-specflow-example-test\bin\debug\mstest-specflow-example-test.dll" id="db1716a4-6d4e-b41b-1ca7-390f86cd3d0c">
+      <Description>LogonInfo8</Description>
+      <Execution id="e03982ad-50c7-45a0-bac0-158bd3095365" />
+      <Properties>
+        <Property>
+          <Key>FeatureTitle</Key>
+          <Value>LogonInfo</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/MSTest-specflow-example-Test/bin/Debug/MSTest-specflow-example-Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MSTest_specflow_example_Test.LogonInfoFeature, MSTest-specflow-example-Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogonInfo8" />
+    </UnitTest>
+    <UnitTest name="GetImageForTimeOfDayTest" storage="e:\master\pcc - puebas de control y desarrollo\vs2010 - mstest\mstest-tests-example-resultados\mstest-tests\testproject1\bin\debug\testproject1.dll" id="e345d26f-c145-058f-8f36-a824ab18e12e">
+      <Execution id="ced3abf0-01a4-4b0f-9901-c23b35b34dad" />
+      <TestMethod codeBase="E:/Master/PCC - Puebas de control y desarrollo/VS2010 - MSTest/MSTest-tests-example-resultados/MSTest-tests/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ImageManagementTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetImageForTimeOfDayTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0142c4d6-f90a-f445-f3d0-d925434ed704" executionId="a4b2afcc-1206-4875-9c87-fa145913ac85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01dae737-7caa-c68c-020d-afa5da3ea534" executionId="2611fb2b-2727-459c-802b-38f7924f289f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03d4330a-9c71-012f-ea61-7d6168805f3e" executionId="9545cd22-a6a2-4e4a-95b4-ed297f81c3c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04411d8d-0666-9d8a-ff2f-1368222e9afc" executionId="af3b46e5-96a1-4ebb-965c-d586ad28e4b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06148110-f8be-0d73-b4f8-cbcb35474c8f" executionId="a96d868d-b7f3-445c-84ed-e3880525c3d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="065dd8ee-a3d6-df77-4485-3e34f4a7b1fe" executionId="95e84e25-c862-43ac-9f1e-bfe34d880481" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08c2c459-99da-2426-16b9-dfe38f32fefc" executionId="d4b27511-4296-4fda-91cf-be19e25a2c3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1878b7f1-e451-7f08-3c16-9c5566399920" executionId="5005e8d9-05eb-436c-8dc5-030189acf7e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25794148-57f7-c8da-34da-bf4544c9b5fc" executionId="9f38954c-b5f3-43e1-a5b8-abc4bf6a3773" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ac10a6c-85d3-1bfc-2165-428cac040b31" executionId="2dcdcc96-4369-43a5-a040-aabee04db92e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2dfe1bd7-08ca-ef98-c61d-100b154838f4" executionId="e3e58a5b-6be2-4098-a58d-06c00b7923d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="446fd7d1-0a70-795e-8795-71ef466b91c9" executionId="abf8e3dd-aea8-4b63-a74d-7a82c4d33da9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="455d249b-5923-1040-5712-f6160b6e4759" executionId="83bea248-4344-4a71-ba34-42e3b7b632e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59bf0caa-ce35-9e3e-d6f7-fbf5ec602ce8" executionId="ef654753-c4ff-438b-95c2-7cb6b1b25fca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="608a9443-84b4-ed0a-59a9-d112de93f972" executionId="d19c048c-77d1-45a4-a208-c5eeee6c7fa3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="62701fa3-d32d-4de4-9dc0-aac2416e8373" executionId="7bc3445e-2521-4058-a0ae-9e96f2bf95e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66ee51ef-01ea-8ffd-1432-b804198b8ad2" executionId="1b89271c-2a3d-4348-a763-1535e5298e87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72d78b3d-5c5f-0ed1-e227-f579e8983f31" executionId="d5cabea2-151a-4bf6-8629-6f302f8f7241" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="740501cf-ca02-ba34-2515-e32ccf2f6c80" executionId="ec6126d5-6afd-4f04-b126-c7eb462614ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75e5bf3f-5383-e270-d4cd-60b56f035f55" executionId="7daa82ad-aebe-46e7-b401-70a36e32eb3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ec43435-a413-43c8-fa42-a53adebdfc79" executionId="f9291f7e-a8e4-4e15-a1f3-ca2318675d89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9300c427-266b-ab2b-ffdd-6c2b30f5f4f8" executionId="f80ba221-c498-4ce7-a6d8-063246409000" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a16e8cc-28e4-4a01-a31d-24e25ea61493" executionId="29e753a0-dac2-4ec8-8b4b-7304dba62b66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0ba9160-44f5-0701-5b1a-7c91df1c5ba6" executionId="e7c2ec9c-6a95-46dd-982b-22b58305c9a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a250f225-510c-5573-9fb6-8fc1358b3b43" executionId="66f5bf1f-b710-47ef-bcb0-0a76812d6623" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4ef3750-3a62-edbb-01d3-23e65b8adda6" executionId="752c8c54-ebb9-4a22-a65d-6122084ef648" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5e13db0-1126-bfdf-d69a-476b5fcf3fa8" executionId="257bda2a-da6c-4768-bb28-b4761b8caee4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5f73eab-3718-4b47-9f00-f8e74567ef93" executionId="cd03f4de-760f-4499-9ca7-ac70ac394497" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a995cff9-003b-f42a-b2b1-b2b20edfb9a2" executionId="d916c680-61fd-455f-8b19-b224af7c1588" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa063b67-59cf-d993-101d-37aca83b2793" executionId="b2e6ddf6-5534-4a6b-b227-75e68a2e6810" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ada1fecf-89e1-fdc8-8b45-27ba8b26f239" executionId="a5b77b6f-24bd-4577-ad12-925e07493971" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae0f3132-d634-9b3a-4dca-1df6c661ea7a" executionId="a34d1244-badf-404b-8930-931348b77ac7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b30f1474-a682-5b26-045f-10adb545a3d6" executionId="12712313-b71d-4c1d-8112-61b30d9654f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5eb1d7c-1382-ab80-2cef-47c85b866844" executionId="fc354bf1-f769-4fce-b151-37095a1f566a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6e3040b-dc5d-0364-dd22-f7b512457430" executionId="b0da6a5a-2d78-4d40-b725-d42ad2ea52bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb64466a-8610-b48c-20bf-225bad77f307" executionId="382f49ee-0be3-4bb6-881f-38b1bf333ca2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfab3ca4-fd39-b34b-8b5d-a06536aa4c8d" executionId="3a083cbd-fe31-42d2-9062-204527436fa0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0d4ea11-6c77-1de8-1eb1-f5900ce46d70" executionId="3bab5c6c-d540-4fef-8591-890d015e9583" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c35ee338-e5ff-ec3d-2d1b-d8d5002e6cae" executionId="8b026f5f-7371-41d3-8caf-da5dd750ce59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cab26c98-2c7b-824a-dd39-cbd7905c7396" executionId="5f6ecd07-70d2-4478-98c2-af02c74b1a82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb1d3294-6609-a568-821b-ab7e82ca3955" executionId="5691a0fe-b3f3-42b4-a92b-5dd798c43cc8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbf4f7bb-712c-8412-028b-97b22c8be11b" executionId="4a5ee64f-f1f4-49b8-b762-ce62f477d9c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce89ae1f-ab54-f1bb-d790-5935db4d70d9" executionId="2fd6987a-0c38-4e8e-9ba2-4739bcb6413d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d26dbcee-d022-ba55-7d86-5e2742496754" executionId="40b27bd9-12c9-4a53-9245-fd58917d4b98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6fa3875-6de5-cd25-ec04-c4560f2b0335" executionId="e5f3ed9b-23d9-4c11-9bdd-c7b59ac0bed9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d737ecf8-d6b9-c504-18b3-8fb5bce0aa0d" executionId="8a3355de-47b1-43fa-a1d1-62a45646f221" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db1716a4-6d4e-b41b-1ca7-390f86cd3d0c" executionId="e03982ad-50c7-45a0-bac0-158bd3095365" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd068bd6-d48c-2459-efc0-399e70a5da76" executionId="f7cfafe5-5b74-4f81-8ad7-312a2da1298d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2d24678-2bac-74c5-d4ea-a3987aa6fe9a" executionId="1811c119-c080-4800-bf0e-afe2155dcd18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e345d26f-c145-058f-8f36-a824ab18e12e" executionId="ced3abf0-01a4-4b0f-9901-c23b35b34dad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee425cd1-a997-db40-1ba3-250bdc660662" executionId="cfa28973-58bb-4e0e-9ffc-332d00d6e853" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eeb3cc19-9e1b-7369-05f0-5b3e4c89f8e3" executionId="1ee5b77b-20b6-4209-9cea-04866c8e25de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f10e8f6c-34dd-38f8-0664-1d8d9ffcff6a" executionId="29fde843-5683-4a13-a440-a2dc4811e0f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2ad077d-8f48-8600-26e9-c3f00e9d5df7" executionId="b0d5096f-3fc4-4c36-95e3-cacead49ffd2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3230ba6-9d7b-5bfa-7848-63992de6283e" executionId="e2034f57-545c-4f8d-b3f4-968461be8e52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f539b545-8bbf-7198-837a-1c7f9f096e3c" executionId="8b8c46c1-1133-424c-9bf5-678962bad5d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f54840ab-2ef2-5f6a-d73b-ecf26092fa27" executionId="623a4eaa-30dd-45ca-b1c2-8693e35ac190" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff7778d2-862f-023f-1871-922e164905cd" executionId="250332d9-73d5-4b9a-a44a-b0881117588b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a4b2afcc-1206-4875-9c87-fa145913ac85" testId="0142c4d6-f90a-f445-f3d0-d925434ed704" testName="ReplaceSingleSentence4" computerName="clL04A-9" duration="00:00:00.1018176" startTime="2013-12-04T11:55:14.6875000+01:00" endTime="2013-12-04T11:55:15.1718750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4b2afcc-1206-4875-9c87-fa145913ac85">
+      <Output>
+        <StdOut>Given remplazar una letra por el numero de ocurrencias
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"remplazar una letra por el numero de ocurrencias")]
+        public void GivenRemplazarUnaLetraPorElNumeroDeOcurrencias()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When reemplace la letra "null" en el texto "hola"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"reemplace la letra ""(.*)"" en el texto ""(.*)""")]
+        public void WhenReemplaceLaLetraEnElTexto(string p0, string p1)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser excepcion
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser excepcion")]
+        public void ThenElResultadoDeberiaSerExcepcion()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"remplazar una letra por el numero de ocurrencias")]
+        public void GivenRemplazarUnaLetraPorElNumeroDeOcurrencias()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"reemplace la letra ""(.*)"" en el texto ""(.*)""")]
+        public void WhenReemplaceLaLetraEnElTexto(string p0, string p1)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser excepcion")]
+        public void ThenElResultadoDeberiaSerExcepcion()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.CustomReplaceFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\CustomReplace.feature.cs:línea 0
+   en MSTest_specflow_example_Test.CustomReplaceFeature.ReplaceSingleSentence4() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\CustomReplace.feature:línea 25
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2611fb2b-2727-459c-802b-38f7924f289f" testId="01dae737-7caa-c68c-020d-afa5da3ea534" testName="LogonInfo2" computerName="clL04A-9" duration="00:00:00.0044379" startTime="2013-12-04T11:55:15.1718750+01:00" endTime="2013-12-04T11:55:15.1875000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2611fb2b-2727-459c-802b-38f7924f289f">
+      <Output>
+        <StdOut>Given una funcion privada LogonInfo
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When comprobar la validez de "1235AA_4"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser false
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.LogonInfoFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature.cs:línea 0
+   en MSTest_specflow_example_Test.LogonInfoFeature.LogonInfo2() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature:línea 15
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9545cd22-a6a2-4e4a-95b4-ed297f81c3c6" testId="03d4330a-9c71-012f-ea61-7d6168805f3e" testName="ImageManagement2" computerName="clL04A-9" duration="00:00:00.0057454" startTime="2013-12-04T11:55:15.1875000+01:00" endTime="2013-12-04T11:55:15.2031250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9545cd22-a6a2-4e4a-95b4-ed297f81c3c6">
+      <Output>
+        <StdOut>Given con un ImageManagement Mock
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"con un ImageManagement Mock")]
+        public void GivenConUnImageManagementMock()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+And establecer el valor resituya método GetHour a 10
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"establecer el valor resituya método GetHour a (.*)")]
+        public void GivenEstablecerElValorResituyaMetodoGetHourA(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When obtener la imagen de la hora del día
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"obtener la imagen de la hora del día")]
+        public void WhenObtenerLaImagenDeLaHoraDelDia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then la imagen resultante debe ser "sun.jpg"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"la imagen resultante debe ser ""(.*)""")]
+        public void ThenLaImagenResultanteDebeSer(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"con un ImageManagement Mock")]
+        public void GivenConUnImageManagementMock()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Given(@"establecer el valor resituya método GetHour a (.*)")]
+        public void GivenEstablecerElValorResituyaMetodoGetHourA(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"obtener la imagen de la hora del día")]
+        public void WhenObtenerLaImagenDeLaHoraDelDia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"la imagen resultante debe ser ""(.*)""")]
+        public void ThenLaImagenResultanteDebeSer(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.ImageManagementFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\ImageManagement.feature.cs:línea 0
+   en MSTest_specflow_example_Test.ImageManagementFeature.ImageManagement2() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\ImageManagement.feature:línea 17
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="af3b46e5-96a1-4ebb-965c-d586ad28e4b2" testId="04411d8d-0666-9d8a-ff2f-1368222e9afc" testName="LogonInfo6" computerName="clL04A-9" duration="00:00:00.0039273" startTime="2013-12-04T11:55:15.2031250+01:00" endTime="2013-12-04T11:55:15.2187500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af3b46e5-96a1-4ebb-965c-d586ad28e4b2">
+      <Output>
+        <StdOut>Given una funcion privada LogonInfo
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When comprobar la validez de "12355_4"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser false
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.LogonInfoFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature.cs:línea 0
+   en MSTest_specflow_example_Test.LogonInfoFeature.LogonInfo6() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature:línea 35
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a96d868d-b7f3-445c-84ed-e3880525c3d0" testId="06148110-f8be-0d73-b4f8-cbcb35474c8f" testName="LogonInfo4" computerName="clL04A-9" duration="00:00:00.0037094" startTime="2013-12-04T11:55:15.2187500+01:00" endTime="2013-12-04T11:55:15.2187500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a96d868d-b7f3-445c-84ed-e3880525c3d0">
+      <Output>
+        <StdOut>Given una funcion privada LogonInfo
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When comprobar la validez de "HHKKAA_a"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser false
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.LogonInfoFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature.cs:línea 0
+   en MSTest_specflow_example_Test.LogonInfoFeature.LogonInfo4() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature:línea 25
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="95e84e25-c862-43ac-9f1e-bfe34d880481" testId="065dd8ee-a3d6-df77-4485-3e34f4a7b1fe" testName="ReplaceSingleSentence5" computerName="clL04A-9" duration="00:00:00.0038859" startTime="2013-12-04T11:55:15.2187500+01:00" endTime="2013-12-04T11:55:15.2343750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95e84e25-c862-43ac-9f1e-bfe34d880481">
+      <Output>
+        <StdOut>Given remplazar una letra por el numero de ocurrencias
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"remplazar una letra por el numero de ocurrencias")]
+        public void GivenRemplazarUnaLetraPorElNumeroDeOcurrencias()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When reemplace la letra "aa" en el texto "hola"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"reemplace la letra ""(.*)"" en el texto ""(.*)""")]
+        public void WhenReemplaceLaLetraEnElTexto(string p0, string p1)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser 2
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser (.*)")]
+        public void ThenElResultadoDeberiaSer(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"remplazar una letra por el numero de ocurrencias")]
+        public void GivenRemplazarUnaLetraPorElNumeroDeOcurrencias()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"reemplace la letra ""(.*)"" en el texto ""(.*)""")]
+        public void WhenReemplaceLaLetraEnElTexto(string p0, string p1)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser (.*)")]
+        public void ThenElResultadoDeberiaSer(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.CustomReplaceFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\CustomReplace.feature.cs:línea 0
+   en MSTest_specflow_example_Test.CustomReplaceFeature.ReplaceSingleSentence5() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\CustomReplace.feature:línea 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d4b27511-4296-4fda-91cf-be19e25a2c3f" testId="08c2c459-99da-2426-16b9-dfe38f32fefc" testName="TestMethod12" computerName="clL04A-9" duration="00:00:00.0311721" startTime="2013-12-04T11:55:15.2343750+01:00" endTime="2013-12-04T11:55:15.5156250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4b27511-4296-4fda-91cf-be19e25a2c3f">
+    </UnitTestResult>
+    <UnitTestResult executionId="5005e8d9-05eb-436c-8dc5-030189acf7e8" testId="1878b7f1-e451-7f08-3c16-9c5566399920" testName="ReplaceSingleSentence3" computerName="clL04A-9" duration="00:00:00.0039091" startTime="2013-12-04T11:55:15.5156250+01:00" endTime="2013-12-04T11:55:15.5312500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5005e8d9-05eb-436c-8dc5-030189acf7e8">
+      <Output>
+        <StdOut>Given remplazar una letra por el numero de ocurrencias
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"remplazar una letra por el numero de ocurrencias")]
+        public void GivenRemplazarUnaLetraPorElNumeroDeOcurrencias()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When reemplace la letra "null" en el texto "null"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"reemplace la letra ""(.*)"" en el texto ""(.*)""")]
+        public void WhenReemplaceLaLetraEnElTexto(string p0, string p1)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser excepcion
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser excepcion")]
+        public void ThenElResultadoDeberiaSerExcepcion()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"remplazar una letra por el numero de ocurrencias")]
+        public void GivenRemplazarUnaLetraPorElNumeroDeOcurrencias()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"reemplace la letra ""(.*)"" en el texto ""(.*)""")]
+        public void WhenReemplaceLaLetraEnElTexto(string p0, string p1)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser excepcion")]
+        public void ThenElResultadoDeberiaSerExcepcion()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.CustomReplaceFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\CustomReplace.feature.cs:línea 0
+   en MSTest_specflow_example_Test.CustomReplaceFeature.ReplaceSingleSentence3() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\CustomReplace.feature:línea 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9f38954c-b5f3-43e1-a5b8-abc4bf6a3773" testId="25794148-57f7-c8da-34da-bf4544c9b5fc" testName="TestMethod8" computerName="clL04A-9" duration="00:00:00.0025475" startTime="2013-12-04T11:55:15.5312500+01:00" endTime="2013-12-04T11:55:15.5312500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f38954c-b5f3-43e1-a5b8-abc4bf6a3773">
+    </UnitTestResult>
+    <UnitTestResult executionId="2dcdcc96-4369-43a5-a040-aabee04db92e" testId="2ac10a6c-85d3-1bfc-2165-428cac040b31" testName="TestMethod6" computerName="clL04A-9" duration="00:00:00.2353746" startTime="2013-12-04T11:55:15.5468750+01:00" endTime="2013-12-04T11:55:15.7812500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2dcdcc96-4369-43a5-a040-aabee04db92e">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba TestProject1.ImageManagementTest.TestMethod6 no inició la excepción esperada System.Exception.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e3e58a5b-6be2-4098-a58d-06c00b7923d6" testId="2dfe1bd7-08ca-ef98-c61d-100b154838f4" testName="ImageManagement7" computerName="clL04A-9" duration="00:00:00.0052646" startTime="2013-12-04T11:55:15.7812500+01:00" endTime="2013-12-04T11:55:15.7968750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3e58a5b-6be2-4098-a58d-06c00b7923d6">
+      <Output>
+        <StdOut>Given con un ImageManagement Mock
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"con un ImageManagement Mock")]
+        public void GivenConUnImageManagementMock()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+And establecer el valor resituya método GetHour a 30
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"establecer el valor resituya método GetHour a (.*)")]
+        public void GivenEstablecerElValorResituyaMetodoGetHourA(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When obtener la imagen de la hora del día
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"obtener la imagen de la hora del día")]
+        public void WhenObtenerLaImagenDeLaHoraDelDia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then la imagen resultante debe ser "moon.jpg"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"la imagen resultante debe ser ""(.*)""")]
+        public void ThenLaImagenResultanteDebeSer(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"con un ImageManagement Mock")]
+        public void GivenConUnImageManagementMock()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Given(@"establecer el valor resituya método GetHour a (.*)")]
+        public void GivenEstablecerElValorResituyaMetodoGetHourA(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"obtener la imagen de la hora del día")]
+        public void WhenObtenerLaImagenDeLaHoraDelDia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"la imagen resultante debe ser ""(.*)""")]
+        public void ThenLaImagenResultanteDebeSer(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.ImageManagementFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\ImageManagement.feature.cs:línea 0
+   en MSTest_specflow_example_Test.ImageManagementFeature.ImageManagement7() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\ImageManagement.feature:línea 47
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="abf8e3dd-aea8-4b63-a74d-7a82c4d33da9" testId="446fd7d1-0a70-795e-8795-71ef466b91c9" testName="TestMethod1" computerName="clL04A-9" duration="00:00:00.0058381" startTime="2013-12-04T11:55:15.7968750+01:00" endTime="2013-12-04T11:55:15.7968750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="abf8e3dd-aea8-4b63-a74d-7a82c4d33da9">
+      <Output>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;False&gt;, pero es &lt;True&gt;. </Message>
+          <StackTrace>   en TestProject1.LogonInfoTest.TestMethod1() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\LogonInfoTest.cs:línea 95
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="83bea248-4344-4a71-ba34-42e3b7b632e4" testId="455d249b-5923-1040-5712-f6160b6e4759" testName="TestMethod3" computerName="clL04A-9" duration="00:00:00.0039653" startTime="2013-12-04T11:55:15.7968750+01:00" endTime="2013-12-04T11:55:15.8125000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83bea248-4344-4a71-ba34-42e3b7b632e4">
+      <Output>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;False&gt;, pero es &lt;True&gt;. </Message>
+          <StackTrace>   en TestProject1.LogonInfoTest.TestMethod3() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\LogonInfoTest.cs:línea 121
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ef654753-c4ff-438b-95c2-7cb6b1b25fca" testId="59bf0caa-ce35-9e3e-d6f7-fbf5ec602ce8" testName="TestMethod6" computerName="clL04A-9" duration="00:00:00.0003302" startTime="2013-12-04T11:55:15.8125000+01:00" endTime="2013-12-04T11:55:15.8125000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef654753-c4ff-438b-95c2-7cb6b1b25fca">
+    </UnitTestResult>
+    <UnitTestResult executionId="d19c048c-77d1-45a4-a208-c5eeee6c7fa3" testId="608a9443-84b4-ed0a-59a9-d112de93f972" testName="TestMethod5" computerName="clL04A-9" duration="00:00:00.0003397" startTime="2013-12-04T11:55:15.8281250+01:00" endTime="2013-12-04T11:55:15.8281250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d19c048c-77d1-45a4-a208-c5eeee6c7fa3">
+    </UnitTestResult>
+    <UnitTestResult executionId="7bc3445e-2521-4058-a0ae-9e96f2bf95e7" testId="62701fa3-d32d-4de4-9dc0-aac2416e8373" testName="LogonInfo9" computerName="clL04A-9" duration="00:00:00.0039351" startTime="2013-12-04T11:55:15.8281250+01:00" endTime="2013-12-04T11:55:15.8281250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7bc3445e-2521-4058-a0ae-9e96f2bf95e7">
+      <Output>
+        <StdOut>Given una funcion privada LogonInfo
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When comprobar la validez de "1235ASS4"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser false
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.LogonInfoFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature.cs:línea 0
+   en MSTest_specflow_example_Test.LogonInfoFeature.LogonInfo9() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature:línea 50
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1b89271c-2a3d-4348-a763-1535e5298e87" testId="66ee51ef-01ea-8ffd-1432-b804198b8ad2" testName="ReplaceSingleSentence6" computerName="clL04A-9" duration="00:00:00.0038267" startTime="2013-12-04T11:55:15.8281250+01:00" endTime="2013-12-04T11:55:15.8437500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b89271c-2a3d-4348-a763-1535e5298e87">
+      <Output>
+        <StdOut>Given remplazar una letra por el numero de ocurrencias
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"remplazar una letra por el numero de ocurrencias")]
+        public void GivenRemplazarUnaLetraPorElNumeroDeOcurrencias()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When reemplace la letra "aa" en el texto "null"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"reemplace la letra ""(.*)"" en el texto ""(.*)""")]
+        public void WhenReemplaceLaLetraEnElTexto(string p0, string p1)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser excepcion
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser excepcion")]
+        public void ThenElResultadoDeberiaSerExcepcion()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"remplazar una letra por el numero de ocurrencias")]
+        public void GivenRemplazarUnaLetraPorElNumeroDeOcurrencias()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"reemplace la letra ""(.*)"" en el texto ""(.*)""")]
+        public void WhenReemplaceLaLetraEnElTexto(string p0, string p1)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser excepcion")]
+        public void ThenElResultadoDeberiaSerExcepcion()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.CustomReplaceFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\CustomReplace.feature.cs:línea 0
+   en MSTest_specflow_example_Test.CustomReplaceFeature.ReplaceSingleSentence6() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\CustomReplace.feature:línea 35
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d5cabea2-151a-4bf6-8629-6f302f8f7241" testId="72d78b3d-5c5f-0ed1-e227-f579e8983f31" testName="TestMethod5" computerName="clL04A-9" duration="00:00:00.0020103" startTime="2013-12-04T11:55:15.8437500+01:00" endTime="2013-12-04T11:55:15.8593750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5cabea2-151a-4bf6-8629-6f302f8f7241">
+      <Output>
+        <ErrorInfo>
+          <Message>El método de prueba TestProject1.ImageManagementTest.TestMethod5 no inició la excepción esperada System.Exception.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ec6126d5-6afd-4f04-b126-c7eb462614ed" testId="740501cf-ca02-ba34-2515-e32ccf2f6c80" testName="ImageManagement6" computerName="clL04A-9" duration="00:00:00.0047743" startTime="2013-12-04T11:55:15.8593750+01:00" endTime="2013-12-04T11:55:15.8593750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec6126d5-6afd-4f04-b126-c7eb462614ed">
+      <Output>
+        <StdOut>Given con un ImageManagement Mock
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"con un ImageManagement Mock")]
+        public void GivenConUnImageManagementMock()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+And establecer el valor resituya método GetHour a -3
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"establecer el valor resituya método GetHour a (.*)")]
+        public void GivenEstablecerElValorResituyaMetodoGetHourA(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When obtener la imagen de la hora del día
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"obtener la imagen de la hora del día")]
+        public void WhenObtenerLaImagenDeLaHoraDelDia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then la imagen resultante debe ser "moon.jpg"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"la imagen resultante debe ser ""(.*)""")]
+        public void ThenLaImagenResultanteDebeSer(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"con un ImageManagement Mock")]
+        public void GivenConUnImageManagementMock()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Given(@"establecer el valor resituya método GetHour a (.*)")]
+        public void GivenEstablecerElValorResituyaMetodoGetHourA(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"obtener la imagen de la hora del día")]
+        public void WhenObtenerLaImagenDeLaHoraDelDia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"la imagen resultante debe ser ""(.*)""")]
+        public void ThenLaImagenResultanteDebeSer(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.ImageManagementFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\ImageManagement.feature.cs:línea 0
+   en MSTest_specflow_example_Test.ImageManagementFeature.ImageManagement6() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\ImageManagement.feature:línea 41
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7daa82ad-aebe-46e7-b401-70a36e32eb3d" testId="75e5bf3f-5383-e270-d4cd-60b56f035f55" testName="LogonInfo12" computerName="clL04A-9" duration="00:00:00.0037655" startTime="2013-12-04T11:55:15.8593750+01:00" endTime="2013-12-04T11:55:15.8750000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7daa82ad-aebe-46e7-b401-70a36e32eb3d">
+      <Output>
+        <StdOut>Given una funcion privada LogonInfo
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When comprobar la validez de "aaaaaaaa"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser false
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.LogonInfoFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature.cs:línea 0
+   en MSTest_specflow_example_Test.LogonInfoFeature.LogonInfo12() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature:línea 65
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f9291f7e-a8e4-4e15-a1f3-ca2318675d89" testId="8ec43435-a413-43c8-fa42-a53adebdfc79" testName="LogonInfo10" computerName="clL04A-9" duration="00:00:00.0037041" startTime="2013-12-04T11:55:15.8750000+01:00" endTime="2013-12-04T11:55:15.8750000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9291f7e-a8e4-4e15-a1f3-ca2318675d89">
+      <Output>
+        <StdOut>Given una funcion privada LogonInfo
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When comprobar la validez de "gg123aa4"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser false
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.LogonInfoFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature.cs:línea 0
+   en MSTest_specflow_example_Test.LogonInfoFeature.LogonInfo10() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature:línea 55
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f80ba221-c498-4ce7-a6d8-063246409000" testId="9300c427-266b-ab2b-ffdd-6c2b30f5f4f8" testName="TestMethod9" computerName="clL04A-9" duration="00:00:00.0003922" startTime="2013-12-04T11:55:15.8906250+01:00" endTime="2013-12-04T11:55:15.8906250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f80ba221-c498-4ce7-a6d8-063246409000">
+    </UnitTestResult>
+    <UnitTestResult executionId="29e753a0-dac2-4ec8-8b4b-7304dba62b66" testId="9a16e8cc-28e4-4a01-a31d-24e25ea61493" testName="TestMethod11" computerName="clL04A-9" duration="00:00:00.0003885" startTime="2013-12-04T11:55:15.8906250+01:00" endTime="2013-12-04T11:55:15.8906250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29e753a0-dac2-4ec8-8b4b-7304dba62b66">
+    </UnitTestResult>
+    <UnitTestResult executionId="e7c2ec9c-6a95-46dd-982b-22b58305c9a9" testId="a0ba9160-44f5-0701-5b1a-7c91df1c5ba6" testName="LogonInfo1" computerName="clL04A-9" duration="00:00:00.0037926" startTime="2013-12-04T11:55:15.8906250+01:00" endTime="2013-12-04T11:55:15.9062500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7c2ec9c-6a95-46dd-982b-22b58305c9a9">
+      <Output>
+        <StdOut>Given una funcion privada LogonInfo
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When comprobar la validez de "1235Aa_4"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser true
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser true")]
+        public void ThenElResultadoDeberiaSerTrue()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser true")]
+        public void ThenElResultadoDeberiaSerTrue()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.LogonInfoFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature.cs:línea 0
+   en MSTest_specflow_example_Test.LogonInfoFeature.LogonInfo1() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature:línea 10
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="66f5bf1f-b710-47ef-bcb0-0a76812d6623" testId="a250f225-510c-5573-9fb6-8fc1358b3b43" testName="TestMethod7" computerName="clL04A-9" duration="00:00:00.0002586" startTime="2013-12-04T11:55:15.9062500+01:00" endTime="2013-12-04T11:55:15.9062500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66f5bf1f-b710-47ef-bcb0-0a76812d6623">
+    </UnitTestResult>
+    <UnitTestResult executionId="752c8c54-ebb9-4a22-a65d-6122084ef648" testId="a4ef3750-3a62-edbb-01d3-23e65b8adda6" testName="TestMethod1" computerName="clL04A-9" duration="00:00:00.0008456" startTime="2013-12-04T11:55:15.9218750+01:00" endTime="2013-12-04T11:55:15.9218750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="752c8c54-ebb9-4a22-a65d-6122084ef648">
+    </UnitTestResult>
+    <UnitTestResult executionId="257bda2a-da6c-4768-bb28-b4761b8caee4" testId="a5e13db0-1126-bfdf-d69a-476b5fcf3fa8" testName="TestMethod2" computerName="clL04A-9" duration="00:00:00.0012537" startTime="2013-12-04T11:55:15.9218750+01:00" endTime="2013-12-04T11:55:15.9218750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="257bda2a-da6c-4768-bb28-b4761b8caee4">
+      <Output>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;False&gt;, pero es &lt;True&gt;. </Message>
+          <StackTrace>   en TestProject1.LogonInfoTest.TestMethod2() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\LogonInfoTest.cs:línea 108
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cd03f4de-760f-4499-9ca7-ac70ac394497" testId="a5f73eab-3718-4b47-9f00-f8e74567ef93" testName="LogonInfo11" computerName="clL04A-9" duration="00:00:00.0037747" startTime="2013-12-04T11:55:15.9218750+01:00" endTime="2013-12-04T11:55:15.9375000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd03f4de-760f-4499-9ca7-ac70ac394497">
+      <Output>
+        <StdOut>Given una funcion privada LogonInfo
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When comprobar la validez de "AAAAAAAA"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser false
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.LogonInfoFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature.cs:línea 0
+   en MSTest_specflow_example_Test.LogonInfoFeature.LogonInfo11() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature:línea 60
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d916c680-61fd-455f-8b19-b224af7c1588" testId="a995cff9-003b-f42a-b2b1-b2b20edfb9a2" testName="ReplaceSingleSentence2" computerName="clL04A-9" duration="00:00:00.0039044" startTime="2013-12-04T11:55:15.9375000+01:00" endTime="2013-12-04T11:55:15.9531250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d916c680-61fd-455f-8b19-b224af7c1588">
+      <Output>
+        <StdOut>Given remplazar una letra por el numero de ocurrencias
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"remplazar una letra por el numero de ocurrencias")]
+        public void GivenRemplazarUnaLetraPorElNumeroDeOcurrencias()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When reemplace la letra "a" en el texto "null"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"reemplace la letra ""(.*)"" en el texto ""(.*)""")]
+        public void WhenReemplaceLaLetraEnElTexto(string p0, string p1)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser excepcion
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser excepcion")]
+        public void ThenElResultadoDeberiaSerExcepcion()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"remplazar una letra por el numero de ocurrencias")]
+        public void GivenRemplazarUnaLetraPorElNumeroDeOcurrencias()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"reemplace la letra ""(.*)"" en el texto ""(.*)""")]
+        public void WhenReemplaceLaLetraEnElTexto(string p0, string p1)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser excepcion")]
+        public void ThenElResultadoDeberiaSerExcepcion()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.CustomReplaceFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\CustomReplace.feature.cs:línea 0
+   en MSTest_specflow_example_Test.CustomReplaceFeature.ReplaceSingleSentence2() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\CustomReplace.feature:línea 15
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b2e6ddf6-5534-4a6b-b227-75e68a2e6810" testId="aa063b67-59cf-d993-101d-37aca83b2793" testName="IsValidPasswordTest" computerName="clL04A-9" duration="00:00:00.0003335" startTime="2013-12-04T11:55:15.9531250+01:00" endTime="2013-12-04T11:55:15.9531250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2e6ddf6-5534-4a6b-b227-75e68a2e6810">
+    </UnitTestResult>
+    <UnitTestResult executionId="a5b77b6f-24bd-4577-ad12-925e07493971" testId="ada1fecf-89e1-fdc8-8b45-27ba8b26f239" testName="ImageManagement5" computerName="clL04A-9" duration="00:00:00.0050785" startTime="2013-12-04T11:55:15.9531250+01:00" endTime="2013-12-04T11:55:15.9687500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5b77b6f-24bd-4577-ad12-925e07493971">
+      <Output>
+        <StdOut>Given con un ImageManagement Mock
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"con un ImageManagement Mock")]
+        public void GivenConUnImageManagementMock()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+And establecer el valor resituya método GetHour a 21
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"establecer el valor resituya método GetHour a (.*)")]
+        public void GivenEstablecerElValorResituyaMetodoGetHourA(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When obtener la imagen de la hora del día
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"obtener la imagen de la hora del día")]
+        public void WhenObtenerLaImagenDeLaHoraDelDia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then la imagen resultante debe ser "moon.jpg"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"la imagen resultante debe ser ""(.*)""")]
+        public void ThenLaImagenResultanteDebeSer(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"con un ImageManagement Mock")]
+        public void GivenConUnImageManagementMock()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Given(@"establecer el valor resituya método GetHour a (.*)")]
+        public void GivenEstablecerElValorResituyaMetodoGetHourA(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"obtener la imagen de la hora del día")]
+        public void WhenObtenerLaImagenDeLaHoraDelDia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"la imagen resultante debe ser ""(.*)""")]
+        public void ThenLaImagenResultanteDebeSer(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.ImageManagementFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\ImageManagement.feature.cs:línea 0
+   en MSTest_specflow_example_Test.ImageManagementFeature.ImageManagement5() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\ImageManagement.feature:línea 35
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a34d1244-badf-404b-8930-931348b77ac7" testId="ae0f3132-d634-9b3a-4dca-1df6c661ea7a" testName="TestMethod6" computerName="clL04A-9" duration="00:00:00.0003640" startTime="2013-12-04T11:55:15.9687500+01:00" endTime="2013-12-04T11:55:15.9687500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a34d1244-badf-404b-8930-931348b77ac7">
+    </UnitTestResult>
+    <UnitTestResult executionId="12712313-b71d-4c1d-8112-61b30d9654f0" testId="b30f1474-a682-5b26-045f-10adb545a3d6" testName="ImageManagement3" computerName="clL04A-9" duration="00:00:00.0093159" startTime="2013-12-04T11:55:15.9687500+01:00" endTime="2013-12-04T11:55:15.9843750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12712313-b71d-4c1d-8112-61b30d9654f0">
+      <Output>
+        <StdOut>Given con un ImageManagement Mock
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"con un ImageManagement Mock")]
+        public void GivenConUnImageManagementMock()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+And establecer el valor resituya método GetHour a 22
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"establecer el valor resituya método GetHour a (.*)")]
+        public void GivenEstablecerElValorResituyaMetodoGetHourA(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When obtener la imagen de la hora del día
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"obtener la imagen de la hora del día")]
+        public void WhenObtenerLaImagenDeLaHoraDelDia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then la imagen resultante debe ser "moon.jpg"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"la imagen resultante debe ser ""(.*)""")]
+        public void ThenLaImagenResultanteDebeSer(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"con un ImageManagement Mock")]
+        public void GivenConUnImageManagementMock()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Given(@"establecer el valor resituya método GetHour a (.*)")]
+        public void GivenEstablecerElValorResituyaMetodoGetHourA(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"obtener la imagen de la hora del día")]
+        public void WhenObtenerLaImagenDeLaHoraDelDia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"la imagen resultante debe ser ""(.*)""")]
+        public void ThenLaImagenResultanteDebeSer(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.ImageManagementFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\ImageManagement.feature.cs:línea 0
+   en MSTest_specflow_example_Test.ImageManagementFeature.ImageManagement3() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\ImageManagement.feature:línea 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fc354bf1-f769-4fce-b151-37095a1f566a" testId="b5eb1d7c-1382-ab80-2cef-47c85b866844" testName="TestMethod1" computerName="clL04A-9" duration="00:00:00.0003226" startTime="2013-12-04T11:55:15.9843750+01:00" endTime="2013-12-04T11:55:16.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc354bf1-f769-4fce-b151-37095a1f566a">
+    </UnitTestResult>
+    <UnitTestResult executionId="b0da6a5a-2d78-4d40-b725-d42ad2ea52bb" testId="b6e3040b-dc5d-0364-dd22-f7b512457430" testName="TestMethod13" computerName="clL04A-9" duration="00:00:00.0013621" startTime="2013-12-04T11:55:16.0000000+01:00" endTime="2013-12-04T11:55:16.0000000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0da6a5a-2d78-4d40-b725-d42ad2ea52bb">
+      <Output>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;False&gt;, pero es &lt;True&gt;. </Message>
+          <StackTrace>   en TestProject1.LogonInfoTest.TestMethod13() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\LogonInfoTest.cs:línea 253
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="382f49ee-0be3-4bb6-881f-38b1bf333ca2" testId="bb64466a-8610-b48c-20bf-225bad77f307" testName="TestMethod3" computerName="clL04A-9" duration="00:00:00.0010182" startTime="2013-12-04T11:55:16.0000000+01:00" endTime="2013-12-04T11:55:16.0156250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="382f49ee-0be3-4bb6-881f-38b1bf333ca2">
+    </UnitTestResult>
+    <UnitTestResult executionId="3a083cbd-fe31-42d2-9062-204527436fa0" testId="bfab3ca4-fd39-b34b-8b5d-a06536aa4c8d" testName="LogonInfo13" computerName="clL04A-9" duration="00:00:00.0037194" startTime="2013-12-04T11:55:16.0156250+01:00" endTime="2013-12-04T11:55:16.0156250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a083cbd-fe31-42d2-9062-204527436fa0">
+      <Output>
+        <StdOut>Given una funcion privada LogonInfo
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When comprobar la validez de "12"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser false
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.LogonInfoFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature.cs:línea 0
+   en MSTest_specflow_example_Test.LogonInfoFeature.LogonInfo13() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature:línea 70
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3bab5c6c-d540-4fef-8591-890d015e9583" testId="c0d4ea11-6c77-1de8-1eb1-f5900ce46d70" testName="TestMethod3" computerName="clL04A-9" duration="00:00:00.0003251" startTime="2013-12-04T11:55:16.0156250+01:00" endTime="2013-12-04T11:55:16.0312500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bab5c6c-d540-4fef-8591-890d015e9583">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b026f5f-7371-41d3-8caf-da5dd750ce59" testId="c35ee338-e5ff-ec3d-2d1b-d8d5002e6cae" testName="TestMethod10" computerName="clL04A-9" duration="00:00:00.0003408" startTime="2013-12-04T11:55:16.0312500+01:00" endTime="2013-12-04T11:55:16.0312500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b026f5f-7371-41d3-8caf-da5dd750ce59">
+    </UnitTestResult>
+    <UnitTestResult executionId="5f6ecd07-70d2-4478-98c2-af02c74b1a82" testId="cab26c98-2c7b-824a-dd39-cbd7905c7396" testName="LogonInfo5" computerName="clL04A-9" duration="00:00:00.0037664" startTime="2013-12-04T11:55:16.0312500+01:00" endTime="2013-12-04T11:55:16.0312500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f6ecd07-70d2-4478-98c2-af02c74b1a82">
+      <Output>
+        <StdOut>Given una funcion privada LogonInfo
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When comprobar la validez de "1235aAAB4"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser false
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.LogonInfoFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature.cs:línea 0
+   en MSTest_specflow_example_Test.LogonInfoFeature.LogonInfo5() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature:línea 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5691a0fe-b3f3-42b4-a92b-5dd798c43cc8" testId="cb1d3294-6609-a568-821b-ab7e82ca3955" testName="TestMethod9" computerName="clL04A-9" duration="00:00:00.0014406" startTime="2013-12-04T11:55:16.0312500+01:00" endTime="2013-12-04T11:55:16.0468750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5691a0fe-b3f3-42b4-a92b-5dd798c43cc8">
+    </UnitTestResult>
+    <UnitTestResult executionId="4a5ee64f-f1f4-49b8-b762-ce62f477d9c4" testId="cbf4f7bb-712c-8412-028b-97b22c8be11b" testName="GetImageForTimeOfDayTest_2Metodo" computerName="clL04A-9" duration="00:00:00.0008534" startTime="2013-12-04T11:55:16.0468750+01:00" endTime="2013-12-04T11:55:16.0468750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a5ee64f-f1f4-49b8-b762-ce62f477d9c4">
+    </UnitTestResult>
+    <UnitTestResult executionId="2fd6987a-0c38-4e8e-9ba2-4739bcb6413d" testId="ce89ae1f-ab54-f1bb-d790-5935db4d70d9" testName="LogonInfo3" computerName="clL04A-9" duration="00:00:00.0036825" startTime="2013-12-04T11:55:16.0625000+01:00" endTime="2013-12-04T11:55:16.0625000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fd6987a-0c38-4e8e-9ba2-4739bcb6413d">
+      <Output>
+        <StdOut>Given una funcion privada LogonInfo
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When comprobar la validez de "1235aa_4"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser false
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.LogonInfoFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature.cs:línea 0
+   en MSTest_specflow_example_Test.LogonInfoFeature.LogonInfo3() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature:línea 20
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="40b27bd9-12c9-4a53-9245-fd58917d4b98" testId="d26dbcee-d022-ba55-7d86-5e2742496754" testName="TestMethod8" computerName="clL04A-9" duration="00:00:00.0003612" startTime="2013-12-04T11:55:16.0625000+01:00" endTime="2013-12-04T11:55:16.0781250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40b27bd9-12c9-4a53-9245-fd58917d4b98">
+    </UnitTestResult>
+    <UnitTestResult executionId="e5f3ed9b-23d9-4c11-9bdd-c7b59ac0bed9" testId="d6fa3875-6de5-cd25-ec04-c4560f2b0335" testName="LogonInfo14" computerName="clL04A-9" duration="00:00:00.0036890" startTime="2013-12-04T11:55:16.0781250+01:00" endTime="2013-12-04T11:55:16.0781250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5f3ed9b-23d9-4c11-9bdd-c7b59ac0bed9">
+      <Output>
+        <StdOut>Given una funcion privada LogonInfo
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When comprobar la validez de "1235Aa _4"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser false
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.LogonInfoFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature.cs:línea 0
+   en MSTest_specflow_example_Test.LogonInfoFeature.LogonInfo14() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature:línea 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8a3355de-47b1-43fa-a1d1-62a45646f221" testId="d737ecf8-d6b9-c504-18b3-8fb5bce0aa0d" testName="LogonInfo7" computerName="clL04A-9" duration="00:00:00.0037962" startTime="2013-12-04T11:55:16.0781250+01:00" endTime="2013-12-04T11:55:16.0937500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a3355de-47b1-43fa-a1d1-62a45646f221">
+      <Output>
+        <StdOut>Given una funcion privada LogonInfo
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When comprobar la validez de "DDDDA_B"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser false
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.LogonInfoFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature.cs:línea 0
+   en MSTest_specflow_example_Test.LogonInfoFeature.LogonInfo7() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature:línea 40
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e03982ad-50c7-45a0-bac0-158bd3095365" testId="db1716a4-6d4e-b41b-1ca7-390f86cd3d0c" testName="LogonInfo8" computerName="clL04A-9" duration="00:00:00.0037063" startTime="2013-12-04T11:55:16.0937500+01:00" endTime="2013-12-04T11:55:16.0937500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e03982ad-50c7-45a0-bac0-158bd3095365">
+      <Output>
+        <StdOut>Given una funcion privada LogonInfo
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When comprobar la validez de "dddda_f"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser false
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"una funcion privada LogonInfo")]
+        public void GivenUnaFuncionPrivadaLogonInfo()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"comprobar la validez de ""(.*)""")]
+        public void WhenComprobarLaValidezDe(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser false")]
+        public void ThenElResultadoDeberiaSerFalse()
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.LogonInfoFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature.cs:línea 0
+   en MSTest_specflow_example_Test.LogonInfoFeature.LogonInfo8() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\LogonInfo.feature:línea 45
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f7cfafe5-5b74-4f81-8ad7-312a2da1298d" testId="dd068bd6-d48c-2459-efc0-399e70a5da76" testName="TestMethod7" computerName="clL04A-9" duration="00:00:00.0003846" startTime="2013-12-04T11:55:16.0937500+01:00" endTime="2013-12-04T11:55:16.1093750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7cfafe5-5b74-4f81-8ad7-312a2da1298d">
+    </UnitTestResult>
+    <UnitTestResult executionId="1811c119-c080-4800-bf0e-afe2155dcd18" testId="e2d24678-2bac-74c5-d4ea-a3987aa6fe9a" testName="ImageManagement1" computerName="clL04A-9" duration="00:00:00.0059856" startTime="2013-12-04T11:55:16.1093750+01:00" endTime="2013-12-04T11:55:16.1093750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1811c119-c080-4800-bf0e-afe2155dcd18">
+      <Output>
+        <StdOut>Given con un ImageManagement Mock
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"con un ImageManagement Mock")]
+        public void GivenConUnImageManagementMock()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+And establecer el valor resituya método GetHour a 12
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"establecer el valor resituya método GetHour a (.*)")]
+        public void GivenEstablecerElValorResituyaMetodoGetHourA(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When obtener la imagen de la hora del día
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"obtener la imagen de la hora del día")]
+        public void WhenObtenerLaImagenDeLaHoraDelDia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then la imagen resultante debe ser "sun.jpg"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"la imagen resultante debe ser ""(.*)""")]
+        public void ThenLaImagenResultanteDebeSer(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"con un ImageManagement Mock")]
+        public void GivenConUnImageManagementMock()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Given(@"establecer el valor resituya método GetHour a (.*)")]
+        public void GivenEstablecerElValorResituyaMetodoGetHourA(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"obtener la imagen de la hora del día")]
+        public void WhenObtenerLaImagenDeLaHoraDelDia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"la imagen resultante debe ser ""(.*)""")]
+        public void ThenLaImagenResultanteDebeSer(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.ImageManagementFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\ImageManagement.feature.cs:línea 0
+   en MSTest_specflow_example_Test.ImageManagementFeature.ImageManagement1() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\ImageManagement.feature:línea 11
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ced3abf0-01a4-4b0f-9901-c23b35b34dad" testId="e345d26f-c145-058f-8f36-a824ab18e12e" testName="GetImageForTimeOfDayTest" computerName="clL04A-9" duration="00:00:00.0169253" startTime="2013-12-04T11:55:16.1093750+01:00" endTime="2013-12-04T11:55:16.1406250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ced3abf0-01a4-4b0f-9901-c23b35b34dad">
+    </UnitTestResult>
+    <UnitTestResult executionId="cfa28973-58bb-4e0e-9ffc-332d00d6e853" testId="ee425cd1-a997-db40-1ba3-250bdc660662" testName="ReplaceSingleSentence1" computerName="clL04A-9" duration="00:00:00.0038675" startTime="2013-12-04T11:55:16.1406250+01:00" endTime="2013-12-04T11:55:16.1406250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cfa28973-58bb-4e0e-9ffc-332d00d6e853">
+      <Output>
+        <StdOut>Given remplazar una letra por el numero de ocurrencias
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"remplazar una letra por el numero de ocurrencias")]
+        public void GivenRemplazarUnaLetraPorElNumeroDeOcurrencias()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When reemplace la letra "b" en el texto "hola"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"reemplace la letra ""(.*)"" en el texto ""(.*)""")]
+        public void WhenReemplaceLaLetraEnElTexto(string p0, string p1)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then el resultado deberia ser "0"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"el resultado deberia ser ""(.*)""")]
+        public void ThenElResultadoDeberiaSer(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"remplazar una letra por el numero de ocurrencias")]
+        public void GivenRemplazarUnaLetraPorElNumeroDeOcurrencias()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"reemplace la letra ""(.*)"" en el texto ""(.*)""")]
+        public void WhenReemplaceLaLetraEnElTexto(string p0, string p1)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"el resultado deberia ser ""(.*)""")]
+        public void ThenElResultadoDeberiaSer(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.CustomReplaceFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\CustomReplace.feature.cs:línea 0
+   en MSTest_specflow_example_Test.CustomReplaceFeature.ReplaceSingleSentence1() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\CustomReplace.feature:línea 10
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1ee5b77b-20b6-4209-9cea-04866c8e25de" testId="eeb3cc19-9e1b-7369-05f0-5b3e4c89f8e3" testName="TestMethod5" computerName="clL04A-9" duration="00:00:00.0003763" startTime="2013-12-04T11:55:16.1562500+01:00" endTime="2013-12-04T11:55:16.1562500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ee5b77b-20b6-4209-9cea-04866c8e25de">
+    </UnitTestResult>
+    <UnitTestResult executionId="29fde843-5683-4a13-a440-a2dc4811e0f0" testId="f10e8f6c-34dd-38f8-0664-1d8d9ffcff6a" testName="TestMethod2" computerName="clL04A-9" duration="00:00:00.0011850" startTime="2013-12-04T11:55:16.1562500+01:00" endTime="2013-12-04T11:55:16.1562500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29fde843-5683-4a13-a440-a2dc4811e0f0">
+      <Output>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;0&gt;, pero es &lt;hola&gt;. </Message>
+          <StackTrace>   en TestProject1.CustomReplacerTest.TestMethod2() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\CustomReplacerTest.cs:línea 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b0d5096f-3fc4-4c36-95e3-cacead49ffd2" testId="f2ad077d-8f48-8600-26e9-c3f00e9d5df7" testName="TestMethod4" computerName="clL04A-9" duration="00:00:00.0003352" startTime="2013-12-04T11:55:16.1562500+01:00" endTime="2013-12-04T11:55:16.1718750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0d5096f-3fc4-4c36-95e3-cacead49ffd2">
+    </UnitTestResult>
+    <UnitTestResult executionId="e2034f57-545c-4f8d-b3f4-968461be8e52" testId="f3230ba6-9d7b-5bfa-7848-63992de6283e" testName="ImageManagement4" computerName="clL04A-9" duration="00:00:00.0048053" startTime="2013-12-04T11:55:16.1718750+01:00" endTime="2013-12-04T11:55:16.1875000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2034f57-545c-4f8d-b3f4-968461be8e52">
+      <Output>
+        <StdOut>Given con un ImageManagement Mock
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"con un ImageManagement Mock")]
+        public void GivenConUnImageManagementMock()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+And establecer el valor resituya método GetHour a 6
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Given(@"establecer el valor resituya método GetHour a (.*)")]
+        public void GivenEstablecerElValorResituyaMetodoGetHourA(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+When obtener la imagen de la hora del día
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [When(@"obtener la imagen de la hora del día")]
+        public void WhenObtenerLaImagenDeLaHoraDelDia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+Then la imagen resultante debe ser "moon.jpg"
+-&gt; No matching step definition found for the step. Use the following code to create one:
+        [Then(@"la imagen resultante debe ser ""(.*)""")]
+        public void ThenLaImagenResultanteDebeSer(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }</StdOut>
+        <ErrorInfo>
+          <Message>Error de Assert.Inconclusive. No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        [Given(@"con un ImageManagement Mock")]
+        public void GivenConUnImageManagementMock()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Given(@"establecer el valor resituya método GetHour a (.*)")]
+        public void GivenEstablecerElValorResituyaMetodoGetHourA(int p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [When(@"obtener la imagen de la hora del día")]
+        public void WhenObtenerLaImagenDeLaHoraDelDia()
+        {
+            ScenarioContext.Current.Pending();
+        }
+        
+        [Then(@"la imagen resultante debe ser ""(.*)""")]
+        public void ThenLaImagenResultanteDebeSer(string p0)
+        {
+            ScenarioContext.Current.Pending();
+        }
+    }
+}
+</Message>
+          <StackTrace>   en lambda_method(Closure , String , Object[] )
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestInconclusive(String message)
+   en TechTalk.SpecFlow.UnitTestProvider.MsTestRuntimeProvider.TestPending(String message)
+   en TechTalk.SpecFlow.ErrorHandling.ErrorProvider.ThrowPendingError(TestStatus testStatus, String message)
+   en TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   en TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   en MSTest_specflow_example_Test.ImageManagementFeature.ScenarioCleanup() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\ImageManagement.feature.cs:línea 0
+   en MSTest_specflow_example_Test.ImageManagementFeature.ImageManagement4() en e:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\MSTest-specflow-example-Test\ImageManagement.feature:línea 29
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8b8c46c1-1133-424c-9bf5-678962bad5d2" testId="f539b545-8bbf-7198-837a-1c7f9f096e3c" testName="TestMethod4" computerName="clL04A-9" duration="00:00:00.0020527" startTime="2013-12-04T11:55:16.1875000+01:00" endTime="2013-12-04T11:55:16.1875000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b8c46c1-1133-424c-9bf5-678962bad5d2">
+      <Output>
+        <ErrorInfo>
+          <Message>Error de Assert.AreEqual. Se esperaba &lt;False&gt;, pero es &lt;True&gt;. </Message>
+          <StackTrace>   en TestProject1.LogonInfoTest.TestMethod4() en E:\Master\PCC - Puebas de control y desarrollo\VS2010 - MSTest\MSTest-tests-example-resultados\MSTest-tests\TestProject1\LogonInfoTest.cs:línea 135
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="623a4eaa-30dd-45ca-b1c2-8693e35ac190" testId="f54840ab-2ef2-5f6a-d73b-ecf26092fa27" testName="TestMethod2" computerName="clL04A-9" duration="00:00:00.0009400" startTime="2013-12-04T11:55:16.1875000+01:00" endTime="2013-12-04T11:55:16.1875000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="623a4eaa-30dd-45ca-b1c2-8693e35ac190">
+    </UnitTestResult>
+    <UnitTestResult executionId="250332d9-73d5-4b9a-a44a-b0881117588b" testId="ff7778d2-862f-023f-1871-922e164905cd" testName="TestMethod4" computerName="clL04A-9" duration="00:00:00.0008498" startTime="2013-12-04T11:55:16.2031250+01:00" endTime="2013-12-04T11:55:16.2031250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="250332d9-73d5-4b9a-a44a-b0881117588b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

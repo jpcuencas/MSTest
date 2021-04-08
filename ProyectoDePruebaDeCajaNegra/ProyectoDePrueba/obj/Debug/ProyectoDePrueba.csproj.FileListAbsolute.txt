@@ -1,0 +1,6 @@
+c:\documents and settings\eps\mis documentos\visual studio 2010\Projects\ProyectoDePrueba\ProyectoDePrueba\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\eps\mis documentos\visual studio 2010\Projects\ProyectoDePrueba\ProyectoDePrueba\bin\Debug\ProyectoDePrueba.dll
+c:\documents and settings\eps\mis documentos\visual studio 2010\Projects\ProyectoDePrueba\ProyectoDePrueba\bin\Debug\ProyectoDePrueba.pdb
+c:\documents and settings\eps\mis documentos\visual studio 2010\Projects\ProyectoDePrueba\ProyectoDePrueba\bin\Debug\TriangleDetector.dll
+c:\documents and settings\eps\mis documentos\visual studio 2010\Projects\ProyectoDePrueba\ProyectoDePrueba\obj\Debug\ProyectoDePrueba.dll
+c:\documents and settings\eps\mis documentos\visual studio 2010\Projects\ProyectoDePrueba\ProyectoDePrueba\obj\Debug\ProyectoDePrueba.pdb
